@@ -1,0 +1,17 @@
+MSH.EncodingCharacters=^~\&
+MSH.SendingApplication.namespaceID=CUSTOMLAB
+MSH.DateTimeOfMessage.time=20070723154459
+MSH.MessageType.messagecode=ORU
+MSH.MessageType.triggerevent=R01
+MSH.MessageControlID=12345-67890
+MSH.ProcessingID.processingID=P
+MSH.VersionID.versionID=2.3
+PID
+MSH.SequenceNumber=1
+MSH.AcceptAcknowledgmentTyp=12345678^^^^^HMC
+MSH.CountryCode=AARDVARK^AARON^A
+OBR
+MSH.CharacterSet=1
+MSH.AlternateCharacterSetHa=ACCESSION
+MSH.MessageProfileIdentifie.entityidentifier=VCDC
+MSH.MessageProfileIdentifie.namespaceID=CAROTID DUPLEX COMPLETE

@@ -1,0 +1,56 @@
+File: test//data//vital_signs_ack_r01.dat
+M7Message: ACK:R01
+Profile: ACK:R01:ACK_Profile
+This report includes all the absolute paths for fields defined in the message 
+definition and it indicates whether the field corresponding to a path is
+required based if a profile is specified. 
+Maximum cardinalities/multiplicites are also specified if they appear in the profile rules.
+******************************************
+ *	Report for 'ACK:R01'		*
+******************************************
+MSH.EncodingCharacters (required)
+MSH.SendingApplication.namespaceID
+MSH.SendingApplication.universalID
+MSH.SendingApplication.universalIDtype
+MSH.SendingFacility.namespaceID
+MSH.SendingFacility.universalID
+MSH.SendingFacility.universalIDtype
+MSH.ReceivingApplication.namespaceID
+MSH.ReceivingApplication.universalID
+MSH.ReceivingApplication.universalIDtype
+MSH.ReceivingFacility.namespaceID
+MSH.ReceivingFacility.universalID
+MSH.ReceivingFacility.universalIDtype
+MSH.DateTimeOfMessage.DateTime (required)
+MSH.DateTimeOfMessage.degreeofprecision
+MSH.MessageType.messagetype (required)
+MSH.MessageType.triggerevent
+MSH.MessageType.messagestructure (required)
+MSH.MessageControlID (required)
+MSH.ProcessingID.processingID (required)
+MSH.ProcessingID.processingmode
+MSH.VersionID.versionID (required)
+MSH.VersionID.internationalizationcod.identifier
+MSH.VersionID.internationalizationcod.text
+MSH.VersionID.internationalizationcod.nameofcodingsystem
+MSH.VersionID.internationalizationcod.alternateidentifier
+MSH.VersionID.internationalizationcod.alternatetext
+MSH.VersionID.internationalizationcod.nameofalternatecodingsy
+MSH.VersionID.internationalversionID.identifier
+MSH.VersionID.internationalversionID.text
+MSH.VersionID.internationalversionID.nameofcodingsystem
+MSH.VersionID.internationalversionID.alternateidentifier
+MSH.VersionID.internationalversionID.alternatetext
+MSH.VersionID.internationalversionID.nameofalternatecodingsy
+MSH.AcceptAcknowledgmentTyp (required)
+MSH.ApplicationAcknowledgme (required)
+MSH.CharacterSet (required)
+MSH.PrincipalLanguageOfMess.identifier (required)
+MSH.PrincipalLanguageOfMess.text
+MSH.PrincipalLanguageOfMess.nameofcodingsystem (required)
+MSH.PrincipalLanguageOfMess.alternateidentifier
+MSH.PrincipalLanguageOfMess.alternatetext
+MSH.PrincipalLanguageOfMess.nameofalternatecodingsy
+MSH.ConformanceStatementID (required)
+MSA.AcknowledgmentCode (required)
+MSA.MessageControlID (required)

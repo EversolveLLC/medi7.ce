@@ -1,0 +1,42 @@
+ACK:ALL=MSH(S)~SFT(S)~MSA(S)~ERR(S)~
+ACK:ALL:=MSH,MSH:,r,~MSA,MSA:,r,~
+MSH=ST(F)EncodingCharacters~HD_MSH03(CF)SendingApplication~HD_MSH04(CF)SendingFacility~HD_MSH05(CF)ReceivingApplication~HD_MSH06(CF)ReceivingFacility~TS_MSH07(CF)DateTimeOfMessage~ST(F)Security~MSG_MSH09(CF)MessageType~ST(F)MessageControlID~PT_MSH11(CF)ProcessingID~VID_MSH12(CF)VersionID~NM(F)SequenceNumber~ST(F)ContinuationPointer~ID(F)AcceptAcknowledgmentType~ID(F)ApplicationAcknowledgmentType~ID(F)CountryCode~ID(F)CharacterSet~CE_MSH19(CF)PrincipalLanguageOfMessage~ID(F)AlternateCharacterSetHandlingScheme~EI_MSH21(CF)MessageProfileIdentifier~
+MSH:=EncodingCharacters,,r ,,^[\x20-\x7e]{1,199}$~SendingApplication,, ,,~SendingFacility,, ,,~ReceivingApplication,, ,,~ReceivingFacility,, ,,~DateTimeOfMessage,TS_MSH07:,r ,,~Security,, ,,^[\x20-\x7e]{1,199}$~MessageType,MSG_MSH09:,r ,,~MessageControlID,,r ,,^[\x20-\x7e]{1,199}$~ProcessingID,,r ,,~VersionID,,r ,,~SequenceNumber,, ,,^[+-]?\d*\.?\d*$~ContinuationPointer,, ,,^[\x20-\x7e]{1,199}$~AcceptAcknowledgmentType,, ,,^[\x20-\x7e]{1,199}$~ApplicationAcknowledgmentType,, ,,^[\x20-\x7e]{1,199}$~CountryCode,, ,,^[\x20-\x7e]{1,199}$~CharacterSet,, ,,^[\x20-\x7e]{1,199}$~PrincipalLanguageOfMessage,, ,,~AlternateCharacterSetHandlingScheme,, ,,^[\x20-\x7e]{1,199}$~MessageProfileIdentifier,, ,,~
+HD_MSH03=IS(F)namespaceID~ST(F)universalID~ID(F)universalIDtype~
+HD_MSH04=IS(F)namespaceID~ST(F)universalID~ID(F)universalIDtype~
+HD_MSH05=IS(F)namespaceID~ST(F)universalID~ID(F)universalIDtype~
+HD_MSH06=IS(F)namespaceID~ST(F)universalID~ID(F)universalIDtype~
+TS_MSH07=TS(F)time~ST(F)degreeofprecision~
+TS_MSH07:=time,,r,,^\d{4}(((0[1-9])|(1[0-2]))(((0[1-9])|([1-2]\d)|(3[0-1]))((([01]\d|2[0-3])([0-5]\d))(([0-5]\d)((\.\d{1,4}))?)?)?)?)?([+-](([0]\d|1[0-3])([0-5]\d)))?$~
+MSG_MSH09=ID(F)messagecode~ID(F)triggerevent~ID(F)messagestructure~
+MSG_MSH09:=messagecode,,r,,^[\x20-\x7e]{1,199}$~triggerevent,,r,,^[\x20-\x7e]{1,199}$~messagestructure,,r,,^[\x20-\x7e]{1,199}$~
+PT_MSH11=ID(F)processingID~ID(F)processingmode~
+VID_MSH12=ID(F)versionID~CE_MSH1202(CF)internationalizationcode~CE_MSH1203(CF)internationalversionID~
+CE_MSH1202=ST(F)identifier~ST(F)text~ID(F)nameofcodingsystem~ST(F)alternateidentifier~ST(F)alternatetext~ID(F)nameofalternatecodingsystem~
+CE_MSH1203=ST(F)identifier~ST(F)text~ID(F)nameofcodingsystem~ST(F)alternateidentifier~ST(F)alternatetext~ID(F)nameofalternatecodingsystem~
+CE_MSH19=ST(F)identifier~ST(F)text~ID(F)nameofcodingsystem~ST(F)alternateidentifier~ST(F)alternatetext~ID(F)nameofalternatecodingsystem~
+EI_MSH21=ST(F)entityidentifier~IS(F)namespaceID~ST(F)universalID~ID(F)universalIDtype~
+
+SFT=XON_SFT01(CF)SoftwareVendorOrganization~ST(F)SoftwareCertifiedVersionorReleaseNu~ST(F)SoftwareProductName~ST(F)SoftwareBinaryID~TX(F)SoftwareProductInformation~TS_SFT06(CF)SoftwareInstallDate~
+SFT:=SoftwareVendorOrganization,,r ,,~SoftwareCertifiedVersionorReleaseNu,,r ,,^[\x20-\x7e]{1,199}$~SoftwareProductName,,r ,,^[\x20-\x7e]{1,199}$~SoftwareBinaryID,,r ,,^[\x20-\x7e]{1,199}$~SoftwareProductInformation,, ,,^([\x20-\x7e])*[\S]$~SoftwareInstallDate,TS_SFT06:, ,,~
+XON_SFT01=ST(F)organizationname~IS(F)organizationnametypecode~NM(F)IDnumber~NM(F)checkdigit~ID(F)checkdigitscheme~HD_SFT0106(CF)assigningauthority~IS(F)identifiertypecode~HD_SFT0108(CF)assigningfacilityID~ID(F)namerepresentationcode~ST(F)organizationidentifier~
+HD_SFT0106=IS(F)namespaceID~ST(F)universalID~ID(F)universalIDtype~
+HD_SFT0108=IS(F)namespaceID~ST(F)universalID~ID(F)universalIDtype~
+TS_SFT06=TS(F)time~ST(F)degreeofprecision~
+TS_SFT06:=time,,r,,^\d{4}(((0[1-9])|(1[0-2]))(((0[1-9])|([1-2]\d)|(3[0-1]))((([01]\d|2[0-3])([0-5]\d))(([0-5]\d)((\.\d{1,4}))?)?)?)?)?([+-](([0]\d|1[0-3])([0-5]\d)))?$~
+
+MSA=ID(F)AcknowledgmentCode~ST(F)MessageControlID~ST(F)TextMessage~NM(F)ExpectedSequenceNumber~ID(F)DelayedAcknowledgmentType~CE_MSA06(CF)ErrorCondition~
+MSA:=AcknowledgmentCode,,r ,,^[\x20-\x7e]{1,199}$~MessageControlID,,r ,,^[\x20-\x7e]{1,199}$~TextMessage,, ,,^[\x20-\x7e]{1,199}$~ExpectedSequenceNumber,, ,,^[+-]?\d*\.?\d*$~DelayedAcknowledgmentType,, ,,^[\x20-\x7e]{1,199}$~ErrorCondition,, ,,~
+CE_MSA06=ST(F)identifier~ST(F)text~ID(F)nameofcodingsystem~ST(F)alternateidentifier~ST(F)alternatetext~ID(F)nameofalternatecodingsystem~
+
+ERR=ELD_ERR01(CF)ErrorCodeandLocation~ERL_ERR02(CF)ErrorLocation~CWE_ERR03(CF)HL7ErrorCode~ID(F)Severity~CWE_ERR05(CF)ApplicationErrorCode~ST(F)ApplicationErrorParameter~TX(F)DiagnosticInformation~TX(F)UserMessage~IS(F)InformPersonIndicator~CWE_ERR10(CF)OverrideType~CWE_ERR11(CF)OverrideReasonCode~XTN_ERR12(CF)HelpDeskContactPoint~
+ERR:=ErrorCodeandLocation,, ,,~ErrorLocation,ERL_ERR02:, ,,~HL7ErrorCode,,r ,,~Severity,,r ,,^[\x20-\x7e]{1,199}$~ApplicationErrorCode,, ,,~ApplicationErrorParameter,, ,,^[\x20-\x7e]{1,199}$~DiagnosticInformation,, ,,^([\x20-\x7e])*[\S]$~UserMessage,, ,,^([\x20-\x7e])*[\S]$~InformPersonIndicator,, ,,^[\x20-\x7e]{1,199}$~OverrideType,, ,,~OverrideReasonCode,, ,,~HelpDeskContactPoint,, ,,~
+ELD_ERR01=ST(F)segmentID~NM(F)segmentsequence~NM(F)fieldposition~CE_ERR0104(CF)codeidentifyingerror~
+CE_ERR0104=ST(F)identifier~ST(F)text~ID(F)nameofcodingsystem~ST(F)alternateidentifier~ST(F)alternatetext~ID(F)nameofalternatecodingsystem~
+ERL_ERR02=ST(F)segmentID~NM(F)segmentsequence~NM(F)fieldposition~NM(F)fieldrepeition~NM(F)componentnumber~NM(F)subcomponentnumber~
+ERL_ERR02:=segmentID,,r,,^[\x20-\x7e]{1,199}$~segmentsequence,,r,,^[+-]?\d*\.?\d*$~
+CWE_ERR03=ST(F)identifier~ST(F)text~ID(F)nameofcodingsystem~ST(F)alternateidentifier~ST(F)alternatetext~ID(F)nameofalternatecodingsystem~ST(F)codingsystemversionID~ST(F)alternatecodingsystemversionID~ST(F)originaltext~
+CWE_ERR05=ST(F)identifier~ST(F)text~ID(F)nameofcodingsystem~ST(F)alternateidentifier~ST(F)alternatetext~ID(F)nameofalternatecodingsystem~ST(F)codingsystemversionID~ST(F)alternatecodingsystemversionID~ST(F)originaltext~
+CWE_ERR10=ST(F)identifier~ST(F)text~ID(F)nameofcodingsystem~ST(F)alternateidentifier~ST(F)alternatetext~ID(F)nameofalternatecodingsystem~ST(F)codingsystemversionID~ST(F)alternatecodingsystemversionID~ST(F)originaltext~
+CWE_ERR11=ST(F)identifier~ST(F)text~ID(F)nameofcodingsystem~ST(F)alternateidentifier~ST(F)alternatetext~ID(F)nameofalternatecodingsystem~ST(F)codingsystemversionID~ST(F)alternatecodingsystemversionID~ST(F)originaltext~
+XTN_ERR12=ST(F)telephonenumber~ID(F)telecommunicationusecode~ID(F)telecommunicationequipmenttype~ST(F)emailaddress~NM(F)countrycode~NM(F)areacitycode~NM(F)localnumber~NM(F)extension~ST(F)anytext~ST(F)extensionprefix~ST(F)speeddialcode~ST(F)unformattedtelephonenumber~

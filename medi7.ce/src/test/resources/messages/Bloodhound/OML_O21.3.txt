@@ -1,0 +1,11 @@
+MSH|^~\&|OP|Entero-gastric|OF|Chemistry|200309060820||OML^O21^OML_O21| 4140msgOP123|T|2.5|123| |||USA||EN
+PID|1||12345^5^M10^Memphis_Hosp^PI||EVERYMAN^ADAM^^JR^^^L||19800101|M
+PV1|1|O|PointOfCare^Room123^Bed321^Facility123||||123^Smith^Joe^R^Jr^Dr|||||||||||12345
+ORC|NW|12345678^gastric||666^gastric|||||200309060710|222221^NURSE^NANCY|||||||||||Entero-gastric^^^^^^FI^^^EG02 4145
+TQ1|||||||||A
+OBR|1|12345678^gastric||CBC^Complete Blood Count|R|201109220710||||1234^BLEEDER| P|||||222222^PHYSICIAN^^^^DR|821
+SPM|1|12345678^gastric||SER|||||||P||||||200309060735|||||||||1 
+ORC|NW|12345678^gastric||666^gastric|||||200309060710|222221^NURSE^NANCY|||||||||||Entero-gastric^^^^^^FI^^^EG02 4145
+TQ1|||||||||A
+OBR|2|12345678^gastric||RETIC^Reticulocyte count|R|201109220710||||1234^BLEEDER| P|||||222222^PHYSICIAN^^^^DR|821
+SPM|1|12345678^gastric||SER|||||||P||||||200309060735|||||||||1

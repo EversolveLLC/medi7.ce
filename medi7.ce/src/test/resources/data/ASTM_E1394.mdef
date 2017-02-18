@@ -1,0 +1,17 @@
+ASTM:BATCH:=H(S)~PatientGroup(SGR)~L(S)
+PatientGroup=P(S)~OrderGroup(SGR)
+OrderGroup=O(S)~M(S)~C(SR)~R(SR)
+H=ST(F)Delimiters~ST(F)MessageControl~ST(F)AccessPassword~A_HD(CF)Sender~ST(F)SenderStreet~ST(F)Reserved~ST(F)SenderPhone~ST(F)SenderCharacteristics~ST(F)ReceiverID~ST(F)Comments~ST(F)ProcessingID~A_VR(CF)StandardVersion~DM(F)MessageDateTime
+P=SI(F)SequenceNumber~ST(F)PatientIdPrimary~ST(F)LabID~ST(F)PatientIDAdditional~A_PN(CF)PatientName~ST(F)MothersName~DM(F)DOB~ST(F)Sex
+O=SI(F)SequenceNumber~ST(F)SpecimenID~ST(F)InstrumentID~A_UI(CF)UniversalTestID~ST(F)Priority~DM(F)OrderDateTime~DM(F)CollectionDateTime~DM(F)CollectionEndTime~ST(F)CollectionVolume~ST(F)CollectorID~ST(F)ActionCode~ST(F)DangerCode~A_CI(CF)RelevantClinicalInfo~DM(F)SpecimenReceivedDateTime~A_SI(CF)SpecimenInformation
+M=SI(F)SequenceNumber~ST(F)CalibrationCode~ST(F)DisposableLot~ST(F)ControlLevel~ST(F)ControlLot~ST(F)HufnersValue~ST(F)ElectronicQCStatus~ST(F)DisposableExpirationDate~ST(F)ControlExpirationDate~ST(F)CardSerialNumber~ST(F)AlternateAnalyzerID
+C=SI(F)SequenceNumber~ST(F)CommentSource~A_CT(CF)Comment~ST(F)CommentType
+R=SI(F)SequenceNumber~A_UI(CF)UniversalID~ST(F)ResultValue~ST(F)Units~ST(F)ReferenceRange~ST(F)AbnormalFlags~ST(F)NatureOfAbnormalFlag~ST(F)ResultStatus~ST(F)DateOfChangeInNormativeValues
+L=SI(F)SequenceNumber~ST(F)TerminationCode
+A_HD=ST(F)Name~ST(F)Version~ST(F)SerialNumber
+A_VR=ST(F)E1394Version~ST(F)DMIRevision
+A_CI=ST(F)PatientStatus~ST(F)TherapyMode~ST(F)FIO2~ST(F)OxygenFlow~ST(F)OxygenPressure~ST(F)TidalVolume~ST(F)Rate~ST(F)Peep~ST(F)Comments~ST(F)PressureSupport
+A_SI=ST(F)SpecimenType~ST(F)SpecimenSource
+A_UI=ST(F)Part1~ST(F)Part2~ST(F)Part3~ST(F)Part4~ST(F)Part5~ST(F)CorrelationStatus
+A_CT=ST(F)CommentID~ST(F)CommentText
+A_PN=ST(F)FamilyName~ST(F)GivenName~ST(F)MiddleName

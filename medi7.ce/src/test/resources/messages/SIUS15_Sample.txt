@@ -1,0 +1,6 @@
+MSH|^~\&|VWPM.HL7Service|IntuitionPM|IntuitionEMR||20040923140715||SIU^S15|6543@5360|P|2.4|||AL
+SCH||9177^INTUITION_PM||||DEL|M^Measurement^INTUITION_PM||||^^^20040930080000^20040930082000|^MDSSUPPORT||||^MDSSUPPORT|||Vitalworks EyeCare Center^^^^^^^^Vitalworks EyeCare Center|^MDSSUPPORT|||||DELETED
+PID||20282|20282||Larson^Leroy^G||19291205000000|M|||3034 N.Pennington^^Chicago^IL^60641||123-123-2313^^^^^123^1232313|||U|||123121234
+RGS|1
+AIL|1||1^Vitalworks EyeCare Center^^^^^^^Vitalworks EyeCare Center|OFFICE
+AIP|1||PRV-1^McKendrick^John^A^^^^^^^^^INTERNAL|DOCTOR|||0

@@ -1,0 +1,1142 @@
+File: test/data/inbound_adt.dat
+M7Message: ADT:A04
+Profile: ADT:A04:
+This report includes all the absolute paths for fields defined in the message 
+definition and it indicates whether the field corresponding to a path is
+required based if a profile is specified. 
+Maximum cardinalities/multiplicites are also specified if they appear in the profile rules.
+******************************************
+ *	Report for 'ADT:A04'		*
+******************************************
+MSH.EncodingCharacters (required)
+MSH.SendingApplication.namespaceID (required)
+MSH.SendingApplication.universalID
+MSH.SendingApplication.universalIDtype
+MSH.SendingFacility.namespaceID (required)
+MSH.SendingFacility.universalID
+MSH.SendingFacility.universalIDtype
+MSH.ReceivingApplication.namespaceID (required)
+MSH.ReceivingApplication.universalID
+MSH.ReceivingApplication.universalIDtype
+MSH.ReceivingFacility.namespaceID
+MSH.ReceivingFacility.universalID
+MSH.ReceivingFacility.universalIDtype
+MSH.DateTimeOfMessage.DateTime (required)
+MSH.DateTimeOfMessage.degreeofprecision
+MSH.Security (required)
+MSH.MessageType.messagetype (required)
+MSH.MessageType.triggerevent (required)
+MSH.MessageType.messagestructure
+MSH.MessageControlID (required)
+MSH.ProcessingID.processingID (required)
+MSH.ProcessingID.processingmode
+MSH.VersionID.versionID (required)
+MSH.VersionID.internationalizationcod.identifier
+MSH.VersionID.internationalizationcod.text
+MSH.VersionID.internationalizationcod.nameofcodingsystem
+MSH.VersionID.internationalizationcod.alternateidentifier
+MSH.VersionID.internationalizationcod.alternatetext
+MSH.VersionID.internationalizationcod.nameofalternatecodingsy
+MSH.VersionID.internationalversionID.identifier
+MSH.VersionID.internationalversionID.text
+MSH.VersionID.internationalversionID.nameofcodingsystem
+MSH.VersionID.internationalversionID.alternateidentifier
+MSH.VersionID.internationalversionID.alternatetext
+MSH.VersionID.internationalversionID.nameofalternatecodingsy
+MSH.SequenceNumber (required)
+MSH.ContinuationPointer (required)
+MSH.AcceptAcknowledgmentTyp (required)
+MSH.ApplicationAcknowledgme (required)
+MSH.CountryCode (required)
+MSH.CharacterSet (required)
+MSH.PrincipalLanguageOfMess.identifier
+MSH.PrincipalLanguageOfMess.text
+MSH.PrincipalLanguageOfMess.nameofcodingsystem
+MSH.PrincipalLanguageOfMess.alternateidentifier
+MSH.PrincipalLanguageOfMess.alternatetext
+MSH.PrincipalLanguageOfMess.nameofalternatecodingsy
+MSH.AlternateCharacterSetHa (required)
+MSH.ConformanceStatementID (required)
+EVN.EventTypeCode (required)
+EVN.RecordedDateTime.DateTime (required)
+EVN.RecordedDateTime.degreeofprecision
+EVN.DateTimePlannedEvent.DateTime (required)
+EVN.DateTimePlannedEvent.degreeofprecision
+EVN.EventReasonCode (required)
+EVN.OperatorID.IDnumberST
+EVN.OperatorID.familyname.surname
+EVN.OperatorID.familyname.ownsurnameprefix
+EVN.OperatorID.familyname.ownsurname
+EVN.OperatorID.familyname.surnameprefixfrompartne
+EVN.OperatorID.familyname.surnamefrompartnerspous
+EVN.OperatorID.givenname
+EVN.OperatorID.secondandfurthergivenna
+EVN.OperatorID.suffixegJRorIII
+EVN.OperatorID.prefixegDR
+EVN.OperatorID.degreeegMD
+EVN.OperatorID.sourcetable
+EVN.OperatorID.assigningauthority.namespaceID
+EVN.OperatorID.assigningauthority.universalID
+EVN.OperatorID.assigningauthority.universalIDtype
+EVN.OperatorID.nametypecode
+EVN.OperatorID.identifiercheckdigit
+EVN.OperatorID.codeidentifyingthecheck
+EVN.OperatorID.identifiertypecodeIS
+EVN.OperatorID.assigningfacility.namespaceID
+EVN.OperatorID.assigningfacility.universalID
+EVN.OperatorID.assigningfacility.universalIDtype
+EVN.OperatorID.NameRepresentationcode
+EVN.OperatorID.namecontext.identifier
+EVN.OperatorID.namecontext.text
+EVN.OperatorID.namecontext.nameofcodingsystem
+EVN.OperatorID.namecontext.alternateidentifier
+EVN.OperatorID.namecontext.alternatetext
+EVN.OperatorID.namecontext.nameofalternatecodingsy
+EVN.OperatorID.namevalidityrange.rangestartdatetime
+EVN.OperatorID.namevalidityrange.rangeenddatetime
+EVN.OperatorID.nameassemblyorder
+EVN.EventOccurred.DateTime (required)
+EVN.EventOccurred.degreeofprecision
+EVN.EventFacility.namespaceID
+EVN.EventFacility.universalID
+EVN.EventFacility.universalIDtype
+PID.SetIDPID (required)
+PID.PatientID.ID
+PID.PatientID.Checkdigit
+PID.PatientID.codeidentifyingthecheck
+PID.PatientID.assigningauthority.namespaceID
+PID.PatientID.assigningauthority.universalID
+PID.PatientID.assigningauthority.universalIDtype
+PID.PatientID.identifiertypecodeID
+PID.PatientID.assigningfacility.namespaceID
+PID.PatientID.assigningfacility.universalID
+PID.PatientID.assigningfacility.universalIDtype
+PID.PatientID.effectivedateDT
+PID.PatientID.expirationdate
+PID.PatientIdentifierList[n].ID (required)
+PID.PatientIdentifierList[n].Checkdigit
+PID.PatientIdentifierList[n].codeidentifyingthecheck
+PID.PatientIdentifierList[n].assigningauthority.namespaceID
+PID.PatientIdentifierList[n].assigningauthority.universalID
+PID.PatientIdentifierList[n].assigningauthority.universalIDtype
+PID.PatientIdentifierList[n].identifiertypecodeID
+PID.PatientIdentifierList[n].assigningfacility.namespaceID
+PID.PatientIdentifierList[n].assigningfacility.universalID
+PID.PatientIdentifierList[n].assigningfacility.universalIDtype
+PID.PatientIdentifierList[n].effectivedateDT
+PID.PatientIdentifierList[n].expirationdate
+PID.AlternatePatientIDPID.ID
+PID.AlternatePatientIDPID.Checkdigit
+PID.AlternatePatientIDPID.codeidentifyingthecheck
+PID.AlternatePatientIDPID.assigningauthority.namespaceID
+PID.AlternatePatientIDPID.assigningauthority.universalID
+PID.AlternatePatientIDPID.assigningauthority.universalIDtype
+PID.AlternatePatientIDPID.identifiertypecodeID
+PID.AlternatePatientIDPID.assigningfacility.namespaceID
+PID.AlternatePatientIDPID.assigningfacility.universalID
+PID.AlternatePatientIDPID.assigningfacility.universalIDtype
+PID.AlternatePatientIDPID.effectivedateDT
+PID.AlternatePatientIDPID.expirationdate
+PID.PatientName[n].familyname.surname (required)
+PID.PatientName[n].familyname.ownsurnameprefix
+PID.PatientName[n].familyname.ownsurname
+PID.PatientName[n].familyname.surnameprefixfrompartne
+PID.PatientName[n].familyname.surnamefrompartnerspous
+PID.PatientName[n].givenname (required)
+PID.PatientName[n].secondandfurthergivenna (required)
+PID.PatientName[n].suffixegJRorIII
+PID.PatientName[n].prefixegDR (required)
+PID.PatientName[n].degreeegMD
+PID.PatientName[n].nametypecode
+PID.PatientName[n].NameRepresentationcode
+PID.PatientName[n].namecontext.identifier
+PID.PatientName[n].namecontext.text
+PID.PatientName[n].namecontext.nameofcodingsystem
+PID.PatientName[n].namecontext.alternateidentifier
+PID.PatientName[n].namecontext.alternatetext
+PID.PatientName[n].namecontext.nameofalternatecodingsy
+PID.PatientName[n].namevalidityrange.rangestartdatetime
+PID.PatientName[n].namevalidityrange.rangeenddatetime
+PID.PatientName[n].nameassemblyorder
+PID.MothersMaidenName[n].familyname.surname (required)
+PID.MothersMaidenName[n].familyname.ownsurnameprefix
+PID.MothersMaidenName[n].familyname.ownsurname
+PID.MothersMaidenName[n].familyname.surnameprefixfrompartne
+PID.MothersMaidenName[n].familyname.surnamefrompartnerspous
+PID.MothersMaidenName[n].givenname
+PID.MothersMaidenName[n].secondandfurthergivenna
+PID.MothersMaidenName[n].suffixegJRorIII
+PID.MothersMaidenName[n].prefixegDR
+PID.MothersMaidenName[n].degreeegMD
+PID.MothersMaidenName[n].nametypecode
+PID.MothersMaidenName[n].NameRepresentationcode
+PID.MothersMaidenName[n].namecontext.identifier
+PID.MothersMaidenName[n].namecontext.text
+PID.MothersMaidenName[n].namecontext.nameofcodingsystem
+PID.MothersMaidenName[n].namecontext.alternateidentifier
+PID.MothersMaidenName[n].namecontext.alternatetext
+PID.MothersMaidenName[n].namecontext.nameofalternatecodingsy
+PID.MothersMaidenName[n].namevalidityrange.rangestartdatetime
+PID.MothersMaidenName[n].namevalidityrange.rangeenddatetime
+PID.MothersMaidenName[n].nameassemblyorder
+PID.DateTimeOfBirth.DateTime (required)
+PID.DateTimeOfBirth.degreeofprecision
+PID.AdministrativeSex (required)
+PID.PatientAlias.familyname.surname
+PID.PatientAlias.familyname.ownsurnameprefix
+PID.PatientAlias.familyname.ownsurname
+PID.PatientAlias.familyname.surnameprefixfrompartne
+PID.PatientAlias.familyname.surnamefrompartnerspous
+PID.PatientAlias.givenname
+PID.PatientAlias.secondandfurthergivenna
+PID.PatientAlias.suffixegJRorIII
+PID.PatientAlias.prefixegDR
+PID.PatientAlias.degreeegMD
+PID.PatientAlias.nametypecode
+PID.PatientAlias.NameRepresentationcode
+PID.PatientAlias.namecontext.identifier
+PID.PatientAlias.namecontext.text
+PID.PatientAlias.namecontext.nameofcodingsystem
+PID.PatientAlias.namecontext.alternateidentifier
+PID.PatientAlias.namecontext.alternatetext
+PID.PatientAlias.namecontext.nameofalternatecodingsy
+PID.PatientAlias.namevalidityrange.rangestartdatetime
+PID.PatientAlias.namevalidityrange.rangeenddatetime
+PID.PatientAlias.nameassemblyorder
+PID.Race[2].identifier (required)
+PID.Race[2].text
+PID.Race[2].nameofcodingsystem
+PID.Race[2].alternateidentifier
+PID.Race[2].alternatetext
+PID.Race[2].nameofalternatecodingsy
+PID.PatientAddress[n].streetaddressSAD.streetormailingaddress (required)
+PID.PatientAddress[n].streetaddressSAD.streetname
+PID.PatientAddress[n].streetaddressSAD.dwellingnumber
+PID.PatientAddress[n].otherdesignation
+PID.PatientAddress[n].city (required)
+PID.PatientAddress[n].stateorprovince (required)
+PID.PatientAddress[n].ziporpostalcode (required)
+PID.PatientAddress[n].country
+PID.PatientAddress[n].addresstype
+PID.PatientAddress[n].othergeographicdesignat
+PID.PatientAddress[n].countyparishcode
+PID.PatientAddress[n].censustract
+PID.PatientAddress[n].addressrepresentationco
+PID.PatientAddress[n].addressvalidityrange.rangestartdatetime
+PID.PatientAddress[n].addressvalidityrange.rangeenddatetime
+PID.CountyCode (required)
+PID.PhoneNumberHome[n].9999999999X99999Canytex (required)
+PID.PhoneNumberHome[n].telecommunicationusecod
+PID.PhoneNumberHome[n].telecommunicationequipm
+PID.PhoneNumberHome[n].Emailaddress
+PID.PhoneNumberHome[n].CountryCode (required)
+PID.PhoneNumberHome[n].Areacitycode (required)
+PID.PhoneNumberHome[n].Phonenumber (required)
+PID.PhoneNumberHome[n].Extension
+PID.PhoneNumberHome[n].anytext
+PID.PhoneNumberBusiness.9999999999X99999Canytex
+PID.PhoneNumberBusiness.telecommunicationusecod
+PID.PhoneNumberBusiness.telecommunicationequipm
+PID.PhoneNumberBusiness.Emailaddress
+PID.PhoneNumberBusiness.CountryCode
+PID.PhoneNumberBusiness.Areacitycode
+PID.PhoneNumberBusiness.Phonenumber
+PID.PhoneNumberBusiness.Extension
+PID.PhoneNumberBusiness.anytext
+PID.PrimaryLanguage.identifier
+PID.PrimaryLanguage.text
+PID.PrimaryLanguage.nameofcodingsystem
+PID.PrimaryLanguage.alternateidentifier
+PID.PrimaryLanguage.alternatetext
+PID.PrimaryLanguage.nameofalternatecodingsy
+PID.MaritalStatus.identifier (required)
+PID.MaritalStatus.text
+PID.MaritalStatus.nameofcodingsystem
+PID.MaritalStatus.alternateidentifier
+PID.MaritalStatus.alternatetext
+PID.MaritalStatus.nameofalternatecodingsy
+PID.Religion.identifier
+PID.Religion.text
+PID.Religion.nameofcodingsystem
+PID.Religion.alternateidentifier
+PID.Religion.alternatetext
+PID.Religion.nameofalternatecodingsy
+PID.PatientAccountNumber.ID (required)
+PID.PatientAccountNumber.Checkdigit
+PID.PatientAccountNumber.codeidentifyingthecheck
+PID.PatientAccountNumber.assigningauthority.namespaceID
+PID.PatientAccountNumber.assigningauthority.universalID
+PID.PatientAccountNumber.assigningauthority.universalIDtype
+PID.PatientAccountNumber.identifiertypecodeID
+PID.PatientAccountNumber.assigningfacility.namespaceID
+PID.PatientAccountNumber.assigningfacility.universalID
+PID.PatientAccountNumber.assigningfacility.universalIDtype
+PID.PatientAccountNumber.effectivedateDT
+PID.PatientAccountNumber.expirationdate
+PID.SSNNumberPatient (required)
+PID.DriversLicenseNumberPat.DriversLicenseNumber
+PID.DriversLicenseNumberPat.IssuingStateprovincecou
+PID.DriversLicenseNumberPat.expirationdate
+PID.MothersIdentifier.ID
+PID.MothersIdentifier.Checkdigit
+PID.MothersIdentifier.codeidentifyingthecheck
+PID.MothersIdentifier.assigningauthority.namespaceID
+PID.MothersIdentifier.assigningauthority.universalID
+PID.MothersIdentifier.assigningauthority.universalIDtype
+PID.MothersIdentifier.identifiertypecodeID
+PID.MothersIdentifier.assigningfacility.namespaceID
+PID.MothersIdentifier.assigningfacility.universalID
+PID.MothersIdentifier.assigningfacility.universalIDtype
+PID.MothersIdentifier.effectivedateDT
+PID.MothersIdentifier.expirationdate
+PID.EthnicGroup[2].identifier (required)
+PID.EthnicGroup[2].text
+PID.EthnicGroup[2].nameofcodingsystem
+PID.EthnicGroup[2].alternateidentifier
+PID.EthnicGroup[2].alternatetext
+PID.EthnicGroup[2].nameofalternatecodingsy
+PID.BirthPlace (required)
+PID.MultipleBirthIndicator (required)
+PID.BirthOrder (required)
+PID.Citizenship.identifier
+PID.Citizenship.text
+PID.Citizenship.nameofcodingsystem
+PID.Citizenship.alternateidentifier
+PID.Citizenship.alternatetext
+PID.Citizenship.nameofalternatecodingsy
+PID.VeteransMilitaryStatus.identifier
+PID.VeteransMilitaryStatus.text
+PID.VeteransMilitaryStatus.nameofcodingsystem
+PID.VeteransMilitaryStatus.alternateidentifier
+PID.VeteransMilitaryStatus.alternatetext
+PID.VeteransMilitaryStatus.nameofalternatecodingsy
+PID.Nationality.identifier
+PID.Nationality.text
+PID.Nationality.nameofcodingsystem
+PID.Nationality.alternateidentifier
+PID.Nationality.alternatetext
+PID.Nationality.nameofalternatecodingsy
+PID.PatientDeathDateandTime.DateTime (required)
+PID.PatientDeathDateandTime.degreeofprecision
+PID.PatientDeathIndicator (required)
+PID.IdentityUnknownIndicato (required)
+PID.IdentityReliabilityCode (required)
+PID.LastUpdateDateTime.DateTime (required)
+PID.LastUpdateDateTime.degreeofprecision
+PID.LastUpdateFacility.namespaceID
+PID.LastUpdateFacility.universalID
+PID.LastUpdateFacility.universalIDtype
+PID.SpeciesCode.identifier
+PID.SpeciesCode.text
+PID.SpeciesCode.nameofcodingsystem
+PID.SpeciesCode.alternateidentifier
+PID.SpeciesCode.alternatetext
+PID.SpeciesCode.nameofalternatecodingsy
+PID.BreedCode.identifier
+PID.BreedCode.text
+PID.BreedCode.nameofcodingsystem
+PID.BreedCode.alternateidentifier
+PID.BreedCode.alternatetext
+PID.BreedCode.nameofalternatecodingsy
+PID.Strain (required)
+PID.ProductionClassCode.identifier
+PID.ProductionClassCode.text
+PID.ProductionClassCode.nameofcodingsystem
+PID.ProductionClassCode.alternateidentifier
+PID.ProductionClassCode.alternatetext
+PID.ProductionClassCode.nameofalternatecodingsy
+G1O.ROL.RoleInstanceID.entityidentifier
+G1O.ROL.RoleInstanceID.namespaceID
+G1O.ROL.RoleInstanceID.universalID
+G1O.ROL.RoleInstanceID.universalIDtype
+G1O.ROL.ActionCode
+G1O.ROL.RoleROL.identifier
+G1O.ROL.RoleROL.text
+G1O.ROL.RoleROL.nameofcodingsystem
+G1O.ROL.RoleROL.alternateidentifier
+G1O.ROL.RoleROL.alternatetext
+G1O.ROL.RoleROL.nameofalternatecodingsy
+G1O.ROL.RolePerson[n].IDnumberST
+G1O.ROL.RolePerson[n].familyname.surname
+G1O.ROL.RolePerson[n].familyname.ownsurnameprefix
+G1O.ROL.RolePerson[n].familyname.ownsurname
+G1O.ROL.RolePerson[n].familyname.surnameprefixfrompartne
+G1O.ROL.RolePerson[n].familyname.surnamefrompartnerspous
+G1O.ROL.RolePerson[n].givenname
+G1O.ROL.RolePerson[n].secondandfurthergivenna
+G1O.ROL.RolePerson[n].suffixegJRorIII
+G1O.ROL.RolePerson[n].prefixegDR
+G1O.ROL.RolePerson[n].degreeegMD
+G1O.ROL.RolePerson[n].sourcetable
+G1O.ROL.RolePerson[n].assigningauthority.namespaceID
+G1O.ROL.RolePerson[n].assigningauthority.universalID
+G1O.ROL.RolePerson[n].assigningauthority.universalIDtype
+G1O.ROL.RolePerson[n].nametypecode
+G1O.ROL.RolePerson[n].identifiercheckdigit
+G1O.ROL.RolePerson[n].codeidentifyingthecheck
+G1O.ROL.RolePerson[n].identifiertypecodeIS
+G1O.ROL.RolePerson[n].assigningfacility.namespaceID
+G1O.ROL.RolePerson[n].assigningfacility.universalID
+G1O.ROL.RolePerson[n].assigningfacility.universalIDtype
+G1O.ROL.RolePerson[n].NameRepresentationcode
+G1O.ROL.RolePerson[n].namecontext.identifier
+G1O.ROL.RolePerson[n].namecontext.text
+G1O.ROL.RolePerson[n].namecontext.nameofcodingsystem
+G1O.ROL.RolePerson[n].namecontext.alternateidentifier
+G1O.ROL.RolePerson[n].namecontext.alternatetext
+G1O.ROL.RolePerson[n].namecontext.nameofalternatecodingsy
+G1O.ROL.RolePerson[n].namevalidityrange.rangestartdatetime
+G1O.ROL.RolePerson[n].namevalidityrange.rangeenddatetime
+G1O.ROL.RolePerson[n].nameassemblyorder
+G1O.ROL.RoleBeginDateTime.DateTime
+G1O.ROL.RoleBeginDateTime.degreeofprecision
+G1O.ROL.RoleEndDateTime.DateTime
+G1O.ROL.RoleEndDateTime.degreeofprecision
+G1O.ROL.RoleDuration.identifier
+G1O.ROL.RoleDuration.text
+G1O.ROL.RoleDuration.nameofcodingsystem
+G1O.ROL.RoleDuration.alternateidentifier
+G1O.ROL.RoleDuration.alternatetext
+G1O.ROL.RoleDuration.nameofalternatecodingsy
+G1O.ROL.RoleActionReason.identifier
+G1O.ROL.RoleActionReason.text
+G1O.ROL.RoleActionReason.nameofcodingsystem
+G1O.ROL.RoleActionReason.alternateidentifier
+G1O.ROL.RoleActionReason.alternatetext
+G1O.ROL.RoleActionReason.nameofalternatecodingsy
+G1O.ROL.ProviderType[n].identifier
+G1O.ROL.ProviderType[n].text
+G1O.ROL.ProviderType[n].nameofcodingsystem
+G1O.ROL.ProviderType[n].alternateidentifier
+G1O.ROL.ProviderType[n].alternatetext
+G1O.ROL.ProviderType[n].nameofalternatecodingsy
+G1O.ROL.OrganizationUnitTypeROL.identifier
+G1O.ROL.OrganizationUnitTypeROL.text
+G1O.ROL.OrganizationUnitTypeROL.nameofcodingsystem
+G1O.ROL.OrganizationUnitTypeROL.alternateidentifier
+G1O.ROL.OrganizationUnitTypeROL.alternatetext
+G1O.ROL.OrganizationUnitTypeROL.nameofalternatecodingsy
+G1O.ROL.OfficeHomeAddress.streetaddressSAD.streetormailingaddress
+G1O.ROL.OfficeHomeAddress.streetaddressSAD.streetname
+G1O.ROL.OfficeHomeAddress.streetaddressSAD.dwellingnumber
+G1O.ROL.OfficeHomeAddress.otherdesignation
+G1O.ROL.OfficeHomeAddress.city
+G1O.ROL.OfficeHomeAddress.stateorprovince
+G1O.ROL.OfficeHomeAddress.ziporpostalcode
+G1O.ROL.OfficeHomeAddress.country
+G1O.ROL.OfficeHomeAddress.addresstype
+G1O.ROL.OfficeHomeAddress.othergeographicdesignat
+G1O.ROL.OfficeHomeAddress.countyparishcode
+G1O.ROL.OfficeHomeAddress.censustract
+G1O.ROL.OfficeHomeAddress.addressrepresentationco
+G1O.ROL.OfficeHomeAddress.addressvalidityrange.rangestartdatetime
+G1O.ROL.OfficeHomeAddress.addressvalidityrange.rangeenddatetime
+G1O.ROL.Phone.9999999999X99999Canytex
+G1O.ROL.Phone.telecommunicationusecod
+G1O.ROL.Phone.telecommunicationequipm
+G1O.ROL.Phone.Emailaddress
+G1O.ROL.Phone.CountryCode
+G1O.ROL.Phone.Areacitycode
+G1O.ROL.Phone.Phonenumber
+G1O.ROL.Phone.Extension
+G1O.ROL.Phone.anytext
+PV1.SetIDPV1 (required)
+PV1.PatientClass (required)
+PV1.AssignedPatientLocation.pointofcare
+PV1.AssignedPatientLocation.room
+PV1.AssignedPatientLocation.bed
+PV1.AssignedPatientLocation.facilityHD.namespaceID
+PV1.AssignedPatientLocation.facilityHD.universalID
+PV1.AssignedPatientLocation.facilityHD.universalIDtype
+PV1.AssignedPatientLocation.locationstatus
+PV1.AssignedPatientLocation.personlocationtype
+PV1.AssignedPatientLocation.building
+PV1.AssignedPatientLocation.floor
+PV1.AssignedPatientLocation.Locationdescription
+PV1.AdmissionType (required)
+PV1.PreadmitNumber.ID
+PV1.PreadmitNumber.Checkdigit
+PV1.PreadmitNumber.codeidentifyingthecheck
+PV1.PreadmitNumber.assigningauthority.namespaceID
+PV1.PreadmitNumber.assigningauthority.universalID
+PV1.PreadmitNumber.assigningauthority.universalIDtype
+PV1.PreadmitNumber.identifiertypecodeID
+PV1.PreadmitNumber.assigningfacility.namespaceID
+PV1.PreadmitNumber.assigningfacility.universalID
+PV1.PreadmitNumber.assigningfacility.universalIDtype
+PV1.PreadmitNumber.effectivedateDT
+PV1.PreadmitNumber.expirationdate
+PV1.PriorPatientLocation.pointofcare
+PV1.PriorPatientLocation.room
+PV1.PriorPatientLocation.bed
+PV1.PriorPatientLocation.facilityHD.namespaceID
+PV1.PriorPatientLocation.facilityHD.universalID
+PV1.PriorPatientLocation.facilityHD.universalIDtype
+PV1.PriorPatientLocation.locationstatus
+PV1.PriorPatientLocation.personlocationtype
+PV1.PriorPatientLocation.building
+PV1.PriorPatientLocation.floor
+PV1.PriorPatientLocation.Locationdescription
+PV1.AttendingDoctor[n].IDnumberST (required)
+PV1.AttendingDoctor[n].familyname.surname (required)
+PV1.AttendingDoctor[n].familyname.ownsurnameprefix
+PV1.AttendingDoctor[n].familyname.ownsurname
+PV1.AttendingDoctor[n].familyname.surnameprefixfrompartne
+PV1.AttendingDoctor[n].familyname.surnamefrompartnerspous
+PV1.AttendingDoctor[n].givenname (required)
+PV1.AttendingDoctor[n].secondandfurthergivenna (required)
+PV1.AttendingDoctor[n].suffixegJRorIII
+PV1.AttendingDoctor[n].prefixegDR
+PV1.AttendingDoctor[n].degreeegMD
+PV1.AttendingDoctor[n].sourcetable
+PV1.AttendingDoctor[n].assigningauthority.namespaceID
+PV1.AttendingDoctor[n].assigningauthority.universalID
+PV1.AttendingDoctor[n].assigningauthority.universalIDtype
+PV1.AttendingDoctor[n].nametypecode
+PV1.AttendingDoctor[n].identifiercheckdigit
+PV1.AttendingDoctor[n].codeidentifyingthecheck
+PV1.AttendingDoctor[n].identifiertypecodeIS
+PV1.AttendingDoctor[n].assigningfacility.namespaceID
+PV1.AttendingDoctor[n].assigningfacility.universalID
+PV1.AttendingDoctor[n].assigningfacility.universalIDtype
+PV1.AttendingDoctor[n].NameRepresentationcode
+PV1.AttendingDoctor[n].namecontext.identifier
+PV1.AttendingDoctor[n].namecontext.text
+PV1.AttendingDoctor[n].namecontext.nameofcodingsystem
+PV1.AttendingDoctor[n].namecontext.alternateidentifier
+PV1.AttendingDoctor[n].namecontext.alternatetext
+PV1.AttendingDoctor[n].namecontext.nameofalternatecodingsy
+PV1.AttendingDoctor[n].namevalidityrange.rangestartdatetime
+PV1.AttendingDoctor[n].namevalidityrange.rangeenddatetime
+PV1.AttendingDoctor[n].nameassemblyorder
+PV1.ReferringDoctor[n].IDnumberST
+PV1.ReferringDoctor[n].familyname.surname (required)
+PV1.ReferringDoctor[n].familyname.ownsurnameprefix
+PV1.ReferringDoctor[n].familyname.ownsurname
+PV1.ReferringDoctor[n].familyname.surnameprefixfrompartne
+PV1.ReferringDoctor[n].familyname.surnamefrompartnerspous
+PV1.ReferringDoctor[n].givenname (required)
+PV1.ReferringDoctor[n].secondandfurthergivenna (required)
+PV1.ReferringDoctor[n].suffixegJRorIII (required)
+PV1.ReferringDoctor[n].prefixegDR (required)
+PV1.ReferringDoctor[n].degreeegMD
+PV1.ReferringDoctor[n].sourcetable
+PV1.ReferringDoctor[n].assigningauthority.namespaceID
+PV1.ReferringDoctor[n].assigningauthority.universalID
+PV1.ReferringDoctor[n].assigningauthority.universalIDtype
+PV1.ReferringDoctor[n].nametypecode
+PV1.ReferringDoctor[n].identifiercheckdigit
+PV1.ReferringDoctor[n].codeidentifyingthecheck
+PV1.ReferringDoctor[n].identifiertypecodeIS
+PV1.ReferringDoctor[n].assigningfacility.namespaceID
+PV1.ReferringDoctor[n].assigningfacility.universalID
+PV1.ReferringDoctor[n].assigningfacility.universalIDtype
+PV1.ReferringDoctor[n].NameRepresentationcode
+PV1.ReferringDoctor[n].namecontext.identifier
+PV1.ReferringDoctor[n].namecontext.text
+PV1.ReferringDoctor[n].namecontext.nameofcodingsystem
+PV1.ReferringDoctor[n].namecontext.alternateidentifier
+PV1.ReferringDoctor[n].namecontext.alternatetext
+PV1.ReferringDoctor[n].namecontext.nameofalternatecodingsy
+PV1.ReferringDoctor[n].namevalidityrange.rangestartdatetime
+PV1.ReferringDoctor[n].namevalidityrange.rangeenddatetime
+PV1.ReferringDoctor[n].nameassemblyorder
+PV1.ConsultingDoctor.IDnumberST
+PV1.ConsultingDoctor.familyname.surname
+PV1.ConsultingDoctor.familyname.ownsurnameprefix
+PV1.ConsultingDoctor.familyname.ownsurname
+PV1.ConsultingDoctor.familyname.surnameprefixfrompartne
+PV1.ConsultingDoctor.familyname.surnamefrompartnerspous
+PV1.ConsultingDoctor.givenname
+PV1.ConsultingDoctor.secondandfurthergivenna
+PV1.ConsultingDoctor.suffixegJRorIII
+PV1.ConsultingDoctor.prefixegDR
+PV1.ConsultingDoctor.degreeegMD
+PV1.ConsultingDoctor.sourcetable
+PV1.ConsultingDoctor.assigningauthority.namespaceID
+PV1.ConsultingDoctor.assigningauthority.universalID
+PV1.ConsultingDoctor.assigningauthority.universalIDtype
+PV1.ConsultingDoctor.nametypecode
+PV1.ConsultingDoctor.identifiercheckdigit
+PV1.ConsultingDoctor.codeidentifyingthecheck
+PV1.ConsultingDoctor.identifiertypecodeIS
+PV1.ConsultingDoctor.assigningfacility.namespaceID
+PV1.ConsultingDoctor.assigningfacility.universalID
+PV1.ConsultingDoctor.assigningfacility.universalIDtype
+PV1.ConsultingDoctor.NameRepresentationcode
+PV1.ConsultingDoctor.namecontext.identifier
+PV1.ConsultingDoctor.namecontext.text
+PV1.ConsultingDoctor.namecontext.nameofcodingsystem
+PV1.ConsultingDoctor.namecontext.alternateidentifier
+PV1.ConsultingDoctor.namecontext.alternatetext
+PV1.ConsultingDoctor.namecontext.nameofalternatecodingsy
+PV1.ConsultingDoctor.namevalidityrange.rangestartdatetime
+PV1.ConsultingDoctor.namevalidityrange.rangeenddatetime
+PV1.ConsultingDoctor.nameassemblyorder
+PV1.HospitalService (required)
+PV1.TemporaryLocation.pointofcare
+PV1.TemporaryLocation.room
+PV1.TemporaryLocation.bed
+PV1.TemporaryLocation.facilityHD.namespaceID
+PV1.TemporaryLocation.facilityHD.universalID
+PV1.TemporaryLocation.facilityHD.universalIDtype
+PV1.TemporaryLocation.locationstatus
+PV1.TemporaryLocation.personlocationtype
+PV1.TemporaryLocation.building
+PV1.TemporaryLocation.floor
+PV1.TemporaryLocation.Locationdescription
+PV1.PreadmitTestIndicator (required)
+PV1.ReadmissionIndicator (required)
+PV1.AdmitSource (required)
+PV1.AmbulatoryStatus (required)
+PV1.VIPIndicator (required)
+PV1.AdmittingDoctor[n].IDnumberST (required)
+PV1.AdmittingDoctor[n].familyname.surname
+PV1.AdmittingDoctor[n].familyname.ownsurnameprefix
+PV1.AdmittingDoctor[n].familyname.ownsurname
+PV1.AdmittingDoctor[n].familyname.surnameprefixfrompartne
+PV1.AdmittingDoctor[n].familyname.surnamefrompartnerspous
+PV1.AdmittingDoctor[n].givenname
+PV1.AdmittingDoctor[n].secondandfurthergivenna
+PV1.AdmittingDoctor[n].suffixegJRorIII
+PV1.AdmittingDoctor[n].prefixegDR
+PV1.AdmittingDoctor[n].degreeegMD
+PV1.AdmittingDoctor[n].sourcetable
+PV1.AdmittingDoctor[n].assigningauthority.namespaceID
+PV1.AdmittingDoctor[n].assigningauthority.universalID
+PV1.AdmittingDoctor[n].assigningauthority.universalIDtype
+PV1.AdmittingDoctor[n].nametypecode
+PV1.AdmittingDoctor[n].identifiercheckdigit
+PV1.AdmittingDoctor[n].codeidentifyingthecheck
+PV1.AdmittingDoctor[n].identifiertypecodeIS
+PV1.AdmittingDoctor[n].assigningfacility.namespaceID
+PV1.AdmittingDoctor[n].assigningfacility.universalID
+PV1.AdmittingDoctor[n].assigningfacility.universalIDtype
+PV1.AdmittingDoctor[n].NameRepresentationcode
+PV1.AdmittingDoctor[n].namecontext.identifier
+PV1.AdmittingDoctor[n].namecontext.text
+PV1.AdmittingDoctor[n].namecontext.nameofcodingsystem
+PV1.AdmittingDoctor[n].namecontext.alternateidentifier
+PV1.AdmittingDoctor[n].namecontext.alternatetext
+PV1.AdmittingDoctor[n].namecontext.nameofalternatecodingsy
+PV1.AdmittingDoctor[n].namevalidityrange.rangestartdatetime
+PV1.AdmittingDoctor[n].namevalidityrange.rangeenddatetime
+PV1.AdmittingDoctor[n].nameassemblyorder
+PV1.PatientType (required)
+PV1.VisitNumber.ID (required)
+PV1.VisitNumber.Checkdigit
+PV1.VisitNumber.codeidentifyingthecheck
+PV1.VisitNumber.assigningauthority.namespaceID
+PV1.VisitNumber.assigningauthority.universalID
+PV1.VisitNumber.assigningauthority.universalIDtype
+PV1.VisitNumber.identifiertypecodeID
+PV1.VisitNumber.assigningfacility.namespaceID
+PV1.VisitNumber.assigningfacility.universalID
+PV1.VisitNumber.assigningfacility.universalIDtype
+PV1.VisitNumber.effectivedateDT
+PV1.VisitNumber.expirationdate
+PV1.FinancialClass[n].FinancialClass (required)
+PV1.FinancialClass[n].EffectiveDateTS.DateTime
+PV1.FinancialClass[n].EffectiveDateTS.degreeofprecision
+PV1.ChargePriceIndicator (required)
+PV1.CourtesyCode (required)
+PV1.CreditRating (required)
+PV1.ContractCode (required)
+PV1.ContractEffectiveDate (required)
+PV1.ContractAmount (required)
+PV1.ContractPeriod (required)
+PV1.InterestCode (required)
+PV1.TransfertoBadDebtCode (required)
+PV1.TransfertoBadDebtDate (required)
+PV1.BadDebtAgencyCode (required)
+PV1.BadDebtTransferAmount (required)
+PV1.BadDebtRecoveryAmount (required)
+PV1.DeleteAccountIndicator (required)
+PV1.DeleteAccountDate (required)
+PV1.DischargeDisposition (required)
+PV1.DischargedtoLocation.dischargelocation (required)
+PV1.DischargedtoLocation.effectivedate.DateTime
+PV1.DischargedtoLocation.effectivedate.degreeofprecision
+PV1.DietType.identifier
+PV1.DietType.text
+PV1.DietType.nameofcodingsystem
+PV1.DietType.alternateidentifier
+PV1.DietType.alternatetext
+PV1.DietType.nameofalternatecodingsy
+PV1.ServicingFacility (required)
+PV1.BedStatus (required)
+PV1.AccountStatus (required)
+PV1.PendingLocation.pointofcare
+PV1.PendingLocation.room
+PV1.PendingLocation.bed
+PV1.PendingLocation.facilityHD.namespaceID
+PV1.PendingLocation.facilityHD.universalID
+PV1.PendingLocation.facilityHD.universalIDtype
+PV1.PendingLocation.locationstatus
+PV1.PendingLocation.personlocationtype
+PV1.PendingLocation.building
+PV1.PendingLocation.floor
+PV1.PendingLocation.Locationdescription
+PV1.PriorTemporaryLocation.pointofcare
+PV1.PriorTemporaryLocation.room
+PV1.PriorTemporaryLocation.bed
+PV1.PriorTemporaryLocation.facilityHD.namespaceID
+PV1.PriorTemporaryLocation.facilityHD.universalID
+PV1.PriorTemporaryLocation.facilityHD.universalIDtype
+PV1.PriorTemporaryLocation.locationstatus
+PV1.PriorTemporaryLocation.personlocationtype
+PV1.PriorTemporaryLocation.building
+PV1.PriorTemporaryLocation.floor
+PV1.PriorTemporaryLocation.Locationdescription
+PV1.AdmitDateTime.DateTime (required)
+PV1.AdmitDateTime.degreeofprecision
+PV1.DischargeDateTime[n].DateTime (required)
+PV1.DischargeDateTime[n].degreeofprecision
+PV1.CurrentPatientBalance (required)
+PV1.TotalCharges (required)
+PV1.TotalAdjustments (required)
+PV1.TotalPayments (required)
+PV1.AlternateVisitID.ID
+PV1.AlternateVisitID.Checkdigit
+PV1.AlternateVisitID.codeidentifyingthecheck
+PV1.AlternateVisitID.assigningauthority.namespaceID
+PV1.AlternateVisitID.assigningauthority.universalID
+PV1.AlternateVisitID.assigningauthority.universalIDtype
+PV1.AlternateVisitID.identifiertypecodeID
+PV1.AlternateVisitID.assigningfacility.namespaceID
+PV1.AlternateVisitID.assigningfacility.universalID
+PV1.AlternateVisitID.assigningfacility.universalIDtype
+PV1.AlternateVisitID.effectivedateDT
+PV1.AlternateVisitID.expirationdate
+PV1.VisitIndicator (required)
+PV1.OtherHealthcareProvider.IDnumberST
+PV1.OtherHealthcareProvider.familyname.surname
+PV1.OtherHealthcareProvider.familyname.ownsurnameprefix
+PV1.OtherHealthcareProvider.familyname.ownsurname
+PV1.OtherHealthcareProvider.familyname.surnameprefixfrompartne
+PV1.OtherHealthcareProvider.familyname.surnamefrompartnerspous
+PV1.OtherHealthcareProvider.givenname
+PV1.OtherHealthcareProvider.secondandfurthergivenna
+PV1.OtherHealthcareProvider.suffixegJRorIII
+PV1.OtherHealthcareProvider.prefixegDR
+PV1.OtherHealthcareProvider.degreeegMD
+PV1.OtherHealthcareProvider.sourcetable
+PV1.OtherHealthcareProvider.assigningauthority.namespaceID
+PV1.OtherHealthcareProvider.assigningauthority.universalID
+PV1.OtherHealthcareProvider.assigningauthority.universalIDtype
+PV1.OtherHealthcareProvider.nametypecode
+PV1.OtherHealthcareProvider.identifiercheckdigit
+PV1.OtherHealthcareProvider.codeidentifyingthecheck
+PV1.OtherHealthcareProvider.identifiertypecodeIS
+PV1.OtherHealthcareProvider.assigningfacility.namespaceID
+PV1.OtherHealthcareProvider.assigningfacility.universalID
+PV1.OtherHealthcareProvider.assigningfacility.universalIDtype
+PV1.OtherHealthcareProvider.NameRepresentationcode
+PV1.OtherHealthcareProvider.namecontext.identifier
+PV1.OtherHealthcareProvider.namecontext.text
+PV1.OtherHealthcareProvider.namecontext.nameofcodingsystem
+PV1.OtherHealthcareProvider.namecontext.alternateidentifier
+PV1.OtherHealthcareProvider.namecontext.alternatetext
+PV1.OtherHealthcareProvider.namecontext.nameofalternatecodingsy
+PV1.OtherHealthcareProvider.namevalidityrange.rangestartdatetime
+PV1.OtherHealthcareProvider.namevalidityrange.rangeenddatetime
+PV1.OtherHealthcareProvider.nameassemblyorder
+ROL.RoleInstanceID.entityidentifier (required)
+ROL.RoleInstanceID.namespaceID
+ROL.RoleInstanceID.universalID
+ROL.RoleInstanceID.universalIDtype
+ROL.ActionCode (required)
+ROL.RoleROL.identifier (required)
+ROL.RoleROL.text
+ROL.RoleROL.nameofcodingsystem
+ROL.RoleROL.alternateidentifier
+ROL.RoleROL.alternatetext
+ROL.RoleROL.nameofalternatecodingsy
+ROL.RolePerson[n].IDnumberST (required)
+ROL.RolePerson[n].familyname.surname (required)
+ROL.RolePerson[n].familyname.ownsurnameprefix
+ROL.RolePerson[n].familyname.ownsurname
+ROL.RolePerson[n].familyname.surnameprefixfrompartne
+ROL.RolePerson[n].familyname.surnamefrompartnerspous
+ROL.RolePerson[n].givenname (required)
+ROL.RolePerson[n].secondandfurthergivenna (required)
+ROL.RolePerson[n].suffixegJRorIII (required)
+ROL.RolePerson[n].prefixegDR (required)
+ROL.RolePerson[n].degreeegMD
+ROL.RolePerson[n].sourcetable
+ROL.RolePerson[n].assigningauthority.namespaceID
+ROL.RolePerson[n].assigningauthority.universalID
+ROL.RolePerson[n].assigningauthority.universalIDtype
+ROL.RolePerson[n].nametypecode
+ROL.RolePerson[n].identifiercheckdigit
+ROL.RolePerson[n].codeidentifyingthecheck
+ROL.RolePerson[n].identifiertypecodeIS
+ROL.RolePerson[n].assigningfacility.namespaceID
+ROL.RolePerson[n].assigningfacility.universalID
+ROL.RolePerson[n].assigningfacility.universalIDtype
+ROL.RolePerson[n].NameRepresentationcode
+ROL.RolePerson[n].namecontext.identifier
+ROL.RolePerson[n].namecontext.text
+ROL.RolePerson[n].namecontext.nameofcodingsystem
+ROL.RolePerson[n].namecontext.alternateidentifier
+ROL.RolePerson[n].namecontext.alternatetext
+ROL.RolePerson[n].namecontext.nameofalternatecodingsy
+ROL.RolePerson[n].namevalidityrange.rangestartdatetime
+ROL.RolePerson[n].namevalidityrange.rangeenddatetime
+ROL.RolePerson[n].nameassemblyorder
+ROL.RoleBeginDateTime.DateTime (required)
+ROL.RoleBeginDateTime.degreeofprecision
+ROL.RoleEndDateTime.DateTime (required)
+ROL.RoleEndDateTime.degreeofprecision
+ROL.RoleDuration.identifier
+ROL.RoleDuration.text
+ROL.RoleDuration.nameofcodingsystem
+ROL.RoleDuration.alternateidentifier
+ROL.RoleDuration.alternatetext
+ROL.RoleDuration.nameofalternatecodingsy
+ROL.RoleActionReason.identifier
+ROL.RoleActionReason.text
+ROL.RoleActionReason.nameofcodingsystem
+ROL.RoleActionReason.alternateidentifier
+ROL.RoleActionReason.alternatetext
+ROL.RoleActionReason.nameofalternatecodingsy
+ROL.ProviderType[2].identifier (required)
+ROL.ProviderType[2].text
+ROL.ProviderType[2].nameofcodingsystem
+ROL.ProviderType[2].alternateidentifier
+ROL.ProviderType[2].alternatetext
+ROL.ProviderType[2].nameofalternatecodingsy
+ROL.OrganizationUnitTypeROL.identifier
+ROL.OrganizationUnitTypeROL.text
+ROL.OrganizationUnitTypeROL.nameofcodingsystem
+ROL.OrganizationUnitTypeROL.alternateidentifier
+ROL.OrganizationUnitTypeROL.alternatetext
+ROL.OrganizationUnitTypeROL.nameofalternatecodingsy
+ROL.OfficeHomeAddress.streetaddressSAD.streetormailingaddress
+ROL.OfficeHomeAddress.streetaddressSAD.streetname
+ROL.OfficeHomeAddress.streetaddressSAD.dwellingnumber
+ROL.OfficeHomeAddress.otherdesignation
+ROL.OfficeHomeAddress.city
+ROL.OfficeHomeAddress.stateorprovince
+ROL.OfficeHomeAddress.ziporpostalcode
+ROL.OfficeHomeAddress.country
+ROL.OfficeHomeAddress.addresstype
+ROL.OfficeHomeAddress.othergeographicdesignat
+ROL.OfficeHomeAddress.countyparishcode
+ROL.OfficeHomeAddress.censustract
+ROL.OfficeHomeAddress.addressrepresentationco
+ROL.OfficeHomeAddress.addressvalidityrange.rangestartdatetime
+ROL.OfficeHomeAddress.addressvalidityrange.rangeenddatetime
+ROL.Phone.9999999999X99999Canytex
+ROL.Phone.telecommunicationusecod
+ROL.Phone.telecommunicationequipm
+ROL.Phone.Emailaddress
+ROL.Phone.CountryCode
+ROL.Phone.Areacitycode
+ROL.Phone.Phonenumber
+ROL.Phone.Extension
+ROL.Phone.anytext
+IN1.SetIDIN1 (required)
+IN1.InsurancePlanID.identifier (required)
+IN1.InsurancePlanID.text
+IN1.InsurancePlanID.nameofcodingsystem
+IN1.InsurancePlanID.alternateidentifier
+IN1.InsurancePlanID.alternatetext
+IN1.InsurancePlanID.nameofalternatecodingsy
+IN1.InsuranceCompanyID[n].ID (required)
+IN1.InsuranceCompanyID[n].Checkdigit
+IN1.InsuranceCompanyID[n].codeidentifyingthecheck
+IN1.InsuranceCompanyID[n].assigningauthority.namespaceID
+IN1.InsuranceCompanyID[n].assigningauthority.universalID
+IN1.InsuranceCompanyID[n].assigningauthority.universalIDtype
+IN1.InsuranceCompanyID[n].identifiertypecodeID
+IN1.InsuranceCompanyID[n].assigningfacility.namespaceID
+IN1.InsuranceCompanyID[n].assigningfacility.universalID
+IN1.InsuranceCompanyID[n].assigningfacility.universalIDtype
+IN1.InsuranceCompanyID[n].effectivedateDT
+IN1.InsuranceCompanyID[n].expirationdate
+IN1.InsuranceCompanyName[n].organizationname (required)
+IN1.InsuranceCompanyName[n].organizationnametypecod
+IN1.InsuranceCompanyName[n].IDnumberNM
+IN1.InsuranceCompanyName[n].checkdigit
+IN1.InsuranceCompanyName[n].codeidentifyingthecheck
+IN1.InsuranceCompanyName[n].assigningauthority.namespaceID
+IN1.InsuranceCompanyName[n].assigningauthority.universalID
+IN1.InsuranceCompanyName[n].assigningauthority.universalIDtype
+IN1.InsuranceCompanyName[n].identifiertypecodeIS
+IN1.InsuranceCompanyName[n].assigningfacilityID.namespaceID
+IN1.InsuranceCompanyName[n].assigningfacilityID.universalID
+IN1.InsuranceCompanyName[n].assigningfacilityID.universalIDtype
+IN1.InsuranceCompanyName[n].NameRepresentationcode
+IN1.InsuranceCompanyAddress[n].streetaddressSAD.streetormailingaddress (required)
+IN1.InsuranceCompanyAddress[n].streetaddressSAD.streetname
+IN1.InsuranceCompanyAddress[n].streetaddressSAD.dwellingnumber
+IN1.InsuranceCompanyAddress[n].otherdesignation (required)
+IN1.InsuranceCompanyAddress[n].city (required)
+IN1.InsuranceCompanyAddress[n].stateorprovince (required)
+IN1.InsuranceCompanyAddress[n].ziporpostalcode (required)
+IN1.InsuranceCompanyAddress[n].country
+IN1.InsuranceCompanyAddress[n].addresstype
+IN1.InsuranceCompanyAddress[n].othergeographicdesignat
+IN1.InsuranceCompanyAddress[n].countyparishcode
+IN1.InsuranceCompanyAddress[n].censustract
+IN1.InsuranceCompanyAddress[n].addressrepresentationco
+IN1.InsuranceCompanyAddress[n].addressvalidityrange.rangestartdatetime
+IN1.InsuranceCompanyAddress[n].addressvalidityrange.rangeenddatetime
+IN1.InsuranceCoContactPerso[n].familyname.surname (required)
+IN1.InsuranceCoContactPerso[n].familyname.ownsurnameprefix
+IN1.InsuranceCoContactPerso[n].familyname.ownsurname
+IN1.InsuranceCoContactPerso[n].familyname.surnameprefixfrompartne
+IN1.InsuranceCoContactPerso[n].familyname.surnamefrompartnerspous
+IN1.InsuranceCoContactPerso[n].givenname
+IN1.InsuranceCoContactPerso[n].secondandfurthergivenna
+IN1.InsuranceCoContactPerso[n].suffixegJRorIII
+IN1.InsuranceCoContactPerso[n].prefixegDR
+IN1.InsuranceCoContactPerso[n].degreeegMD
+IN1.InsuranceCoContactPerso[n].nametypecode
+IN1.InsuranceCoContactPerso[n].NameRepresentationcode
+IN1.InsuranceCoContactPerso[n].namecontext.identifier
+IN1.InsuranceCoContactPerso[n].namecontext.text
+IN1.InsuranceCoContactPerso[n].namecontext.nameofcodingsystem
+IN1.InsuranceCoContactPerso[n].namecontext.alternateidentifier
+IN1.InsuranceCoContactPerso[n].namecontext.alternatetext
+IN1.InsuranceCoContactPerso[n].namecontext.nameofalternatecodingsy
+IN1.InsuranceCoContactPerso[n].namevalidityrange.rangestartdatetime
+IN1.InsuranceCoContactPerso[n].namevalidityrange.rangeenddatetime
+IN1.InsuranceCoContactPerso[n].nameassemblyorder
+IN1.InsuranceCoPhoneNumber.9999999999X99999Canytex
+IN1.InsuranceCoPhoneNumber.telecommunicationusecod
+IN1.InsuranceCoPhoneNumber.telecommunicationequipm
+IN1.InsuranceCoPhoneNumber.Emailaddress
+IN1.InsuranceCoPhoneNumber.CountryCode
+IN1.InsuranceCoPhoneNumber.Areacitycode
+IN1.InsuranceCoPhoneNumber.Phonenumber
+IN1.InsuranceCoPhoneNumber.Extension
+IN1.InsuranceCoPhoneNumber.anytext
+IN1.GroupNumber (required)
+IN1.GroupName[n].organizationname (required)
+IN1.GroupName[n].organizationnametypecod
+IN1.GroupName[n].IDnumberNM
+IN1.GroupName[n].checkdigit
+IN1.GroupName[n].codeidentifyingthecheck
+IN1.GroupName[n].assigningauthority.namespaceID
+IN1.GroupName[n].assigningauthority.universalID
+IN1.GroupName[n].assigningauthority.universalIDtype
+IN1.GroupName[n].identifiertypecodeIS
+IN1.GroupName[n].assigningfacilityID.namespaceID
+IN1.GroupName[n].assigningfacilityID.universalID
+IN1.GroupName[n].assigningfacilityID.universalIDtype
+IN1.GroupName[n].NameRepresentationcode
+IN1.InsuredsGroupEmpID.ID
+IN1.InsuredsGroupEmpID.Checkdigit
+IN1.InsuredsGroupEmpID.codeidentifyingthecheck
+IN1.InsuredsGroupEmpID.assigningauthority.namespaceID
+IN1.InsuredsGroupEmpID.assigningauthority.universalID
+IN1.InsuredsGroupEmpID.assigningauthority.universalIDtype
+IN1.InsuredsGroupEmpID.identifiertypecodeID
+IN1.InsuredsGroupEmpID.assigningfacility.namespaceID
+IN1.InsuredsGroupEmpID.assigningfacility.universalID
+IN1.InsuredsGroupEmpID.assigningfacility.universalIDtype
+IN1.InsuredsGroupEmpID.effectivedateDT
+IN1.InsuredsGroupEmpID.expirationdate
+IN1.InsuredsGroupEmpName.organizationname
+IN1.InsuredsGroupEmpName.organizationnametypecod
+IN1.InsuredsGroupEmpName.IDnumberNM
+IN1.InsuredsGroupEmpName.checkdigit
+IN1.InsuredsGroupEmpName.codeidentifyingthecheck
+IN1.InsuredsGroupEmpName.assigningauthority.namespaceID
+IN1.InsuredsGroupEmpName.assigningauthority.universalID
+IN1.InsuredsGroupEmpName.assigningauthority.universalIDtype
+IN1.InsuredsGroupEmpName.identifiertypecodeIS
+IN1.InsuredsGroupEmpName.assigningfacilityID.namespaceID
+IN1.InsuredsGroupEmpName.assigningfacilityID.universalID
+IN1.InsuredsGroupEmpName.assigningfacilityID.universalIDtype
+IN1.InsuredsGroupEmpName.NameRepresentationcode
+IN1.PlanEffectiveDate (required)
+IN1.PlanExpirationDate (required)
+IN1.AuthorizationInformatio.authorizationnumber (required)
+IN1.AuthorizationInformatio.date.DateTime
+IN1.AuthorizationInformatio.date.degreeofprecision
+IN1.AuthorizationInformatio.source
+IN1.PlanType (required)
+IN1.NameOfInsured[n].familyname.surname (required)
+IN1.NameOfInsured[n].familyname.ownsurnameprefix
+IN1.NameOfInsured[n].familyname.ownsurname
+IN1.NameOfInsured[n].familyname.surnameprefixfrompartne
+IN1.NameOfInsured[n].familyname.surnamefrompartnerspous
+IN1.NameOfInsured[n].givenname (required)
+IN1.NameOfInsured[n].secondandfurthergivenna (required)
+IN1.NameOfInsured[n].suffixegJRorIII
+IN1.NameOfInsured[n].prefixegDR
+IN1.NameOfInsured[n].degreeegMD
+IN1.NameOfInsured[n].nametypecode
+IN1.NameOfInsured[n].NameRepresentationcode
+IN1.NameOfInsured[n].namecontext.identifier
+IN1.NameOfInsured[n].namecontext.text
+IN1.NameOfInsured[n].namecontext.nameofcodingsystem
+IN1.NameOfInsured[n].namecontext.alternateidentifier
+IN1.NameOfInsured[n].namecontext.alternatetext
+IN1.NameOfInsured[n].namecontext.nameofalternatecodingsy
+IN1.NameOfInsured[n].namevalidityrange.rangestartdatetime
+IN1.NameOfInsured[n].namevalidityrange.rangeenddatetime
+IN1.NameOfInsured[n].nameassemblyorder
+IN1.InsuredsRelationshipToP.identifier
+IN1.InsuredsRelationshipToP.text
+IN1.InsuredsRelationshipToP.nameofcodingsystem
+IN1.InsuredsRelationshipToP.alternateidentifier
+IN1.InsuredsRelationshipToP.alternatetext
+IN1.InsuredsRelationshipToP.nameofalternatecodingsy
+IN1.InsuredsDateOfBirth.DateTime (required)
+IN1.InsuredsDateOfBirth.degreeofprecision
+IN1.InsuredsAddress[n].streetaddressSAD.streetormailingaddress (required)
+IN1.InsuredsAddress[n].streetaddressSAD.streetname
+IN1.InsuredsAddress[n].streetaddressSAD.dwellingnumber
+IN1.InsuredsAddress[n].otherdesignation
+IN1.InsuredsAddress[n].city
+IN1.InsuredsAddress[n].stateorprovince
+IN1.InsuredsAddress[n].ziporpostalcode
+IN1.InsuredsAddress[n].country
+IN1.InsuredsAddress[n].addresstype
+IN1.InsuredsAddress[n].othergeographicdesignat
+IN1.InsuredsAddress[n].countyparishcode
+IN1.InsuredsAddress[n].censustract
+IN1.InsuredsAddress[n].addressrepresentationco
+IN1.InsuredsAddress[n].addressvalidityrange.rangestartdatetime
+IN1.InsuredsAddress[n].addressvalidityrange.rangeenddatetime
+IN1.AssignmentOfBenefits (required)
+IN1.CoordinationOfBenefits (required)
+IN1.CoordOfBenPriority (required)
+IN1.NoticeOfAdmissionFlag (required)
+IN1.NoticeOfAdmissionDate (required)
+IN1.ReportOfEligibilityFlag (required)
+IN1.ReportOfEligibilityDate (required)
+IN1.ReleaseInformationCode (required)
+IN1.PreAdmitCertPAC (required)
+IN1.VerificationDateTime.DateTime (required)
+IN1.VerificationDateTime.degreeofprecision
+IN1.VerificationBy[n].IDnumberST (required)
+IN1.VerificationBy[n].familyname.surname
+IN1.VerificationBy[n].familyname.ownsurnameprefix
+IN1.VerificationBy[n].familyname.ownsurname
+IN1.VerificationBy[n].familyname.surnameprefixfrompartne
+IN1.VerificationBy[n].familyname.surnamefrompartnerspous
+IN1.VerificationBy[n].givenname
+IN1.VerificationBy[n].secondandfurthergivenna
+IN1.VerificationBy[n].suffixegJRorIII
+IN1.VerificationBy[n].prefixegDR
+IN1.VerificationBy[n].degreeegMD
+IN1.VerificationBy[n].sourcetable
+IN1.VerificationBy[n].assigningauthority.namespaceID
+IN1.VerificationBy[n].assigningauthority.universalID
+IN1.VerificationBy[n].assigningauthority.universalIDtype
+IN1.VerificationBy[n].nametypecode
+IN1.VerificationBy[n].identifiercheckdigit
+IN1.VerificationBy[n].codeidentifyingthecheck
+IN1.VerificationBy[n].identifiertypecodeIS
+IN1.VerificationBy[n].assigningfacility.namespaceID
+IN1.VerificationBy[n].assigningfacility.universalID
+IN1.VerificationBy[n].assigningfacility.universalIDtype
+IN1.VerificationBy[n].NameRepresentationcode
+IN1.VerificationBy[n].namecontext.identifier
+IN1.VerificationBy[n].namecontext.text
+IN1.VerificationBy[n].namecontext.nameofcodingsystem
+IN1.VerificationBy[n].namecontext.alternateidentifier
+IN1.VerificationBy[n].namecontext.alternatetext
+IN1.VerificationBy[n].namecontext.nameofalternatecodingsy
+IN1.VerificationBy[n].namevalidityrange.rangestartdatetime
+IN1.VerificationBy[n].namevalidityrange.rangeenddatetime
+IN1.VerificationBy[n].nameassemblyorder
+IN1.TypeOfAgreementCode (required)
+IN1.BillingStatus (required)
+IN1.LifetimeReserveDays (required)
+IN1.DelayBeforeLRDay (required)
+IN1.CompanyPlanCode (required)
+IN1.PolicyNumber (required)
+IN1.PolicyDeductible.price.quantity
+IN1.PolicyDeductible.price.denomination
+IN1.PolicyDeductible.pricetype
+IN1.PolicyDeductible.fromvalue
+IN1.PolicyDeductible.tovalue
+IN1.PolicyDeductible.rangeunits.identifier
+IN1.PolicyDeductible.rangeunits.text
+IN1.PolicyDeductible.rangeunits.nameofcodingsystem
+IN1.PolicyDeductible.rangeunits.alternateidentifier
+IN1.PolicyDeductible.rangeunits.alternatetext
+IN1.PolicyDeductible.rangeunits.nameofalternatecodingsy
+IN1.PolicyDeductible.rangetype
+IN1.PolicyLimitAmount.price.quantity
+IN1.PolicyLimitAmount.price.denomination
+IN1.PolicyLimitAmount.pricetype
+IN1.PolicyLimitAmount.fromvalue
+IN1.PolicyLimitAmount.tovalue
+IN1.PolicyLimitAmount.rangeunits.identifier
+IN1.PolicyLimitAmount.rangeunits.text
+IN1.PolicyLimitAmount.rangeunits.nameofcodingsystem
+IN1.PolicyLimitAmount.rangeunits.alternateidentifier
+IN1.PolicyLimitAmount.rangeunits.alternatetext
+IN1.PolicyLimitAmount.rangeunits.nameofalternatecodingsy
+IN1.PolicyLimitAmount.rangetype
+IN1.PolicyLimitDays (required)
+IN1.RoomRateSemiPrivate.price.quantity
+IN1.RoomRateSemiPrivate.price.denomination
+IN1.RoomRateSemiPrivate.pricetype
+IN1.RoomRateSemiPrivate.fromvalue
+IN1.RoomRateSemiPrivate.tovalue
+IN1.RoomRateSemiPrivate.rangeunits.identifier
+IN1.RoomRateSemiPrivate.rangeunits.text
+IN1.RoomRateSemiPrivate.rangeunits.nameofcodingsystem
+IN1.RoomRateSemiPrivate.rangeunits.alternateidentifier
+IN1.RoomRateSemiPrivate.rangeunits.alternatetext
+IN1.RoomRateSemiPrivate.rangeunits.nameofalternatecodingsy
+IN1.RoomRateSemiPrivate.rangetype
+IN1.RoomRatePrivate.price.quantity
+IN1.RoomRatePrivate.price.denomination
+IN1.RoomRatePrivate.pricetype
+IN1.RoomRatePrivate.fromvalue
+IN1.RoomRatePrivate.tovalue
+IN1.RoomRatePrivate.rangeunits.identifier
+IN1.RoomRatePrivate.rangeunits.text
+IN1.RoomRatePrivate.rangeunits.nameofcodingsystem
+IN1.RoomRatePrivate.rangeunits.alternateidentifier
+IN1.RoomRatePrivate.rangeunits.alternatetext
+IN1.RoomRatePrivate.rangeunits.nameofalternatecodingsy
+IN1.RoomRatePrivate.rangetype
+IN1.InsuredsEmploymentStatu.identifier
+IN1.InsuredsEmploymentStatu.text
+IN1.InsuredsEmploymentStatu.nameofcodingsystem
+IN1.InsuredsEmploymentStatu.alternateidentifier
+IN1.InsuredsEmploymentStatu.alternatetext
+IN1.InsuredsEmploymentStatu.nameofalternatecodingsy
+IN1.InsuredsAdministrativeS (required)
+IN1.InsuredsEmployersAddres.streetaddressSAD.streetormailingaddress
+IN1.InsuredsEmployersAddres.streetaddressSAD.streetname
+IN1.InsuredsEmployersAddres.streetaddressSAD.dwellingnumber
+IN1.InsuredsEmployersAddres.otherdesignation
+IN1.InsuredsEmployersAddres.city
+IN1.InsuredsEmployersAddres.stateorprovince
+IN1.InsuredsEmployersAddres.ziporpostalcode
+IN1.InsuredsEmployersAddres.country
+IN1.InsuredsEmployersAddres.addresstype
+IN1.InsuredsEmployersAddres.othergeographicdesignat
+IN1.InsuredsEmployersAddres.countyparishcode
+IN1.InsuredsEmployersAddres.censustract
+IN1.InsuredsEmployersAddres.addressrepresentationco
+IN1.InsuredsEmployersAddres.addressvalidityrange.rangestartdatetime
+IN1.InsuredsEmployersAddres.addressvalidityrange.rangeenddatetime
+IN1.VerificationStatus (required)
+IN1.PriorInsurancePlanID (required)
+IN1.CoverageType (required)
+IN1.Handicap (required)
+IN1.InsuredsIDNumber.ID
+IN1.InsuredsIDNumber.Checkdigit
+IN1.InsuredsIDNumber.codeidentifyingthecheck
+IN1.InsuredsIDNumber.assigningauthority.namespaceID
+IN1.InsuredsIDNumber.assigningauthority.universalID
+IN1.InsuredsIDNumber.assigningauthority.universalIDtype
+IN1.InsuredsIDNumber.identifiertypecodeID
+IN1.InsuredsIDNumber.assigningfacility.namespaceID
+IN1.InsuredsIDNumber.assigningfacility.universalID
+IN1.InsuredsIDNumber.assigningfacility.universalIDtype
+IN1.InsuredsIDNumber.effectivedateDT
+IN1.InsuredsIDNumber.expirationdate
+

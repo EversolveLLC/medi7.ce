@@ -1,0 +1,8 @@
+H|\^~|||LISHOST|||||||P|LIS2-A2|20100318235959
+P|1||Pat123||Doe^Jim^A||19901209|M|||||Mildred^Haffner| |||||||||||General Hospital
+C|1|L|Patient is diabetic|G
+O|1|Sp123||^^^CBC|R||20100318093030|||Bill|A|||20100318124309|Whole blood|Smith^Andy^A|||||||||F||General Hospital^Emergency
+P|2||Pat124||Smith^Burton^T||19870902|M|||||||||||||||||General Hospital
+O|1|Sp1001||^^^CBC|R||20100318093030||||A|||20100318124309|Whole blood|Carrington^Blake|||||||||F||General Hospital
+O|2|Sp1002||^^^RETIC|R||20100318093030||||A|||20100318124309|Whole blood|Carrington^Blake|||||||||F
+L|1|N

@@ -1,0 +1,1027 @@
+File: test/data/spacelabs.dat
+M7Message: ORF:R04
+Profile: ORF:R04:
+This report includes all the absolute paths for fields defined in the message 
+definition and it indicates whether the field corresponding to a path is
+required based if a profile is specified. 
+Maximum cardinalities/multiplicites are also specified if they appear in the profile rules.
+******************************************
+ *	Report for 'ORF:R04'		*
+******************************************
+MSH.EncodingCharacters (required)
+MSH.SendingApplication.namespaceID (required)
+MSH.SendingApplication.universalID
+MSH.SendingApplication.universalIDtype
+MSH.SendingFacility.namespaceID (required)
+MSH.SendingFacility.universalID
+MSH.SendingFacility.universalIDtype
+MSH.ReceivingApplication.namespaceID (required)
+MSH.ReceivingApplication.universalID
+MSH.ReceivingApplication.universalIDtype
+MSH.ReceivingFacility.namespaceID (required)
+MSH.ReceivingFacility.universalID
+MSH.ReceivingFacility.universalIDtype
+MSH.DateTimeofMessage.DateTime (required)
+MSH.DateTimeofMessage.degreeofprecision
+MSH.Security (required)
+MSH.MessageType.messagetype (required)
+MSH.MessageType.triggerevent (required)
+MSH.MessageControlID (required)
+MSH.ProcessingID.processingID (required)
+MSH.ProcessingID.processingmode
+MSH.VersionID (required)
+MSH.SequenceNumber (required)
+MSH.ContinuationPointer (required)
+MSH.AcceptAcknowledgementTy (required)
+MSH.ApplicationAcknowledgem (required)
+MSH.CountryCode (required)
+MSH.CharacterSet (required)
+MSH.PrincipalLanguageofMess.identifier
+MSH.PrincipalLanguageofMess.text
+MSH.PrincipalLanguageofMess.nameofcodingsystem
+MSH.PrincipalLanguageofMess.alternateidentifier
+MSH.PrincipalLanguageofMess.alternatetext
+MSH.PrincipalLanguageofMess.nameofalternatecodingsy
+MSA.Acknowledgementcode (required)
+MSA.MessageControlID (required)
+MSA.TextMessage (required)
+MSA.ExpectedSequenceNumber (required)
+MSA.DelayedAcknowledgementT (required)
+MSA.ErrorCondition.identifier
+MSA.ErrorCondition.text
+MSA.ErrorCondition.nameofcodingsystem
+MSA.ErrorCondition.alternateidentifier
+MSA.ErrorCondition.alternatetext
+MSA.ErrorCondition.nameofalternatecodingsy
+QRD.QueryDateTime.DateTime (required)
+QRD.QueryDateTime.degreeofprecision
+QRD.QueryFormatCode (required)
+QRD.QueryPriority (required)
+QRD.QueryID (required)
+QRD.DeferredResponseType (required)
+QRD.DeferredResponseDateTim.DateTime (required)
+QRD.DeferredResponseDateTim.degreeofprecision
+QRD.QuantityLimitedRequest.quantity (required)
+QRD.QuantityLimitedRequest.units.identifier
+QRD.QuantityLimitedRequest.units.text
+QRD.QuantityLimitedRequest.units.nameofcodingsystem
+QRD.QuantityLimitedRequest.units.alternateidentifier
+QRD.QuantityLimitedRequest.units.alternatetext
+QRD.QuantityLimitedRequest.units.nameofalternatecodingsy
+QRD.WhoSubjectFilter[n].IDnumberST (required)
+QRD.WhoSubjectFilter[n].familyname
+QRD.WhoSubjectFilter[n].givenname
+QRD.WhoSubjectFilter[n].middleinitialorname
+QRD.WhoSubjectFilter[n].suffixegJRorIII
+QRD.WhoSubjectFilter[n].prefixegDR
+QRD.WhoSubjectFilter[n].degreeegMD
+QRD.WhoSubjectFilter[n].sourcetable
+QRD.WhoSubjectFilter[n].assigningauthority.namespaceID
+QRD.WhoSubjectFilter[n].assigningauthority.universalID
+QRD.WhoSubjectFilter[n].assigningauthority.universalIDtype
+QRD.WhoSubjectFilter[n].nametype
+QRD.WhoSubjectFilter[n].identifiercheckdigit
+QRD.WhoSubjectFilter[n].codeidentifyingthecheck
+QRD.WhoSubjectFilter[n].identifiertypecode
+QRD.WhoSubjectFilter[n].assigningfacilityID.namespaceID
+QRD.WhoSubjectFilter[n].assigningfacilityID.universalID
+QRD.WhoSubjectFilter[n].assigningfacilityID.universalIDtype
+QRD.WhatSubjectFilter[n].identifier (required)
+QRD.WhatSubjectFilter[n].text
+QRD.WhatSubjectFilter[n].nameofcodingsystem
+QRD.WhatSubjectFilter[n].alternateidentifier
+QRD.WhatSubjectFilter[n].alternatetext
+QRD.WhatSubjectFilter[n].nameofalternatecodingsy
+QRD.WhatDepartmentDataCode[n].identifier
+QRD.WhatDepartmentDataCode[n].text
+QRD.WhatDepartmentDataCode[n].nameofcodingsystem
+QRD.WhatDepartmentDataCode[n].alternateidentifier
+QRD.WhatDepartmentDataCode[n].alternatetext
+QRD.WhatDepartmentDataCode[n].nameofalternatecodingsy
+QRD.WhatDataCodeValueQualif.firstdatacodevalue
+QRD.WhatDataCodeValueQualif.Lastdatacodecalue
+QRD.QueryResultsLevel (required)
+QRF.WhereSubjectFilter[n] (required)
+QRF.WhenDataStartDateTime.DateTime (required)
+QRF.WhenDataStartDateTime.degreeofprecision
+QRF.WhenDataEndDateTime.DateTime (required)
+QRF.WhenDataEndDateTime.degreeofprecision
+QRF.WhatUserQualifier (required)
+QRF.OtherQRYSubjectFilter (required)
+QRF.WhichDateTimeQualifier (required)
+QRF.WhichDateTimeStatusQual (required)
+QRF.DateTimeSelectionQualif (required)
+QRF.WhenQuantityTimingQuali.quantity.quantity
+QRF.WhenQuantityTimingQuali.quantity.units
+QRF.WhenQuantityTimingQuali.interval
+QRF.WhenQuantityTimingQuali.duration
+QRF.WhenQuantityTimingQuali.startdatetime.DateTime
+QRF.WhenQuantityTimingQuali.startdatetime.degreeofprecision
+QRF.WhenQuantityTimingQuali.enddatetime.DateTime
+QRF.WhenQuantityTimingQuali.enddatetime.degreeofprecision
+QRF.WhenQuantityTimingQuali.priority
+QRF.WhenQuantityTimingQuali.condition
+QRF.WhenQuantityTimingQuali.textTX
+QRF.WhenQuantityTimingQuali.conjunction
+QRF.WhenQuantityTimingQuali.ordersequencing
+PID.SetIDPatientID (required)
+PID.PatientIDExternalID.ID
+PID.PatientIDExternalID.checkdigit
+PID.PatientIDExternalID.codeidentifyingthecheck
+PID.PatientIDExternalID.assigningauthority.namespaceID
+PID.PatientIDExternalID.assigningauthority.universalID
+PID.PatientIDExternalID.assigningauthority.universalIDtype
+PID.PatientIDExternalID.identifiertypecode
+PID.PatientIDExternalID.assigningfacility.namespaceID
+PID.PatientIDExternalID.assigningfacility.universalID
+PID.PatientIDExternalID.assigningfacility.universalIDtype
+PID.PatientIDInternalID[n].ID (required)
+PID.PatientIDInternalID[n].checkdigit
+PID.PatientIDInternalID[n].codeidentifyingthecheck
+PID.PatientIDInternalID[n].assigningauthority.namespaceID
+PID.PatientIDInternalID[n].assigningauthority.universalID
+PID.PatientIDInternalID[n].assigningauthority.universalIDtype
+PID.PatientIDInternalID[n].identifiertypecode
+PID.PatientIDInternalID[n].assigningfacility.namespaceID
+PID.PatientIDInternalID[n].assigningfacility.universalID
+PID.PatientIDInternalID[n].assigningfacility.universalIDtype
+PID.AlternatePatientID.ID
+PID.AlternatePatientID.checkdigit
+PID.AlternatePatientID.codeidentifyingthecheck
+PID.AlternatePatientID.assigningauthority.namespaceID
+PID.AlternatePatientID.assigningauthority.universalID
+PID.AlternatePatientID.assigningauthority.universalIDtype
+PID.AlternatePatientID.identifiertypecode
+PID.AlternatePatientID.assigningfacility.namespaceID
+PID.AlternatePatientID.assigningfacility.universalID
+PID.AlternatePatientID.assigningfacility.universalIDtype
+PID.PatientName.familyname (required)
+PID.PatientName.givenname (required)
+PID.PatientName.middleinitialorname (required)
+PID.PatientName.suffixegJRorIII
+PID.PatientName.prefixegDR
+PID.PatientName.degreeegMD
+PID.PatientName.nametypecode
+PID.PatientName.NameRepresentationcode
+PID.MothersMaidenName.familyname
+PID.MothersMaidenName.givenname
+PID.MothersMaidenName.middleinitialorname
+PID.MothersMaidenName.suffixegJRorIII
+PID.MothersMaidenName.prefixegDR
+PID.MothersMaidenName.degreeegMD
+PID.MothersMaidenName.nametypecode
+PID.MothersMaidenName.NameRepresentationcode
+PID.DateofBirth.DateTime (required)
+PID.DateofBirth.degreeofprecision
+PID.Sex (required)
+PID.PatientAlias.familyname
+PID.PatientAlias.givenname
+PID.PatientAlias.middleinitialorname
+PID.PatientAlias.suffixegJRorIII
+PID.PatientAlias.prefixegDR
+PID.PatientAlias.degreeegMD
+PID.PatientAlias.nametypecode
+PID.PatientAlias.NameRepresentationcode
+PID.Race (required)
+PID.PatientAddress[n].streetaddress (required)
+PID.PatientAddress[n].otherdesignation
+PID.PatientAddress[n].city (required)
+PID.PatientAddress[n].stateorprovince (required)
+PID.PatientAddress[n].ziporpostalcode (required)
+PID.PatientAddress[n].country
+PID.PatientAddress[n].addresstype
+PID.PatientAddress[n].othergeographicdesignat
+PID.PatientAddress[n].countyparishcode
+PID.PatientAddress[n].censustract
+PID.CountyCode (required)
+PID.PhoneNumberHome[n] (required)
+PID.PhoneNumberBusiness (required)
+PID.PrimaryLanguage.identifier
+PID.PrimaryLanguage.text
+PID.PrimaryLanguage.nameofcodingsystem
+PID.PrimaryLanguage.alternateidentifier
+PID.PrimaryLanguage.alternatetext
+PID.PrimaryLanguage.nameofalternatecodingsy
+PID.MaritalStatus[n] (required)
+PID.Religion (required)
+PID.PatientAccountNumber.ID (required)
+PID.PatientAccountNumber.checkdigit
+PID.PatientAccountNumber.codeidentifyingthecheck
+PID.PatientAccountNumber.assigningauthority.namespaceID
+PID.PatientAccountNumber.assigningauthority.universalID
+PID.PatientAccountNumber.assigningauthority.universalIDtype
+PID.PatientAccountNumber.identifiertypecode
+PID.PatientAccountNumber.assigningfacility.namespaceID
+PID.PatientAccountNumber.assigningfacility.universalID
+PID.PatientAccountNumber.assigningfacility.universalIDtype
+PID.SSNNumberPatient (required)
+PID.DriversLicenseNumber.DriversLicenseNumber
+PID.DriversLicenseNumber.IssuingStateprovincecou
+PID.DriversLicenseNumber.expirationdate
+PID.MothersIdentifier.ID
+PID.MothersIdentifier.checkdigit
+PID.MothersIdentifier.codeidentifyingthecheck
+PID.MothersIdentifier.assigningauthority.namespaceID
+PID.MothersIdentifier.assigningauthority.universalID
+PID.MothersIdentifier.assigningauthority.universalIDtype
+PID.MothersIdentifier.identifiertypecode
+PID.MothersIdentifier.assigningfacility.namespaceID
+PID.MothersIdentifier.assigningfacility.universalID
+PID.MothersIdentifier.assigningfacility.universalIDtype
+PID.EthnicGroup (required)
+PID.BirthPlace (required)
+PID.MultipleBirthIndicator (required)
+PID.BirthOrder (required)
+PID.Citizenship (required)
+PID.VeteransMilitaryStatus.identifier
+PID.VeteransMilitaryStatus.text
+PID.VeteransMilitaryStatus.nameofcodingsystem
+PID.VeteransMilitaryStatus.alternateidentifier
+PID.VeteransMilitaryStatus.alternatetext
+PID.VeteransMilitaryStatus.nameofalternatecodingsy
+PID.NationalityCode.identifier
+PID.NationalityCode.text
+PID.NationalityCode.nameofcodingsystem
+PID.NationalityCode.alternateidentifier
+PID.NationalityCode.alternatetext
+PID.NationalityCode.nameofalternatecodingsy
+PID.PatientDeathDateandTime.DateTime (required)
+PID.PatientDeathDateandTime.degreeofprecision
+PID.PatientDeathIndicator (required)
+PV1.SetIDPatientVisit (required)
+PV1.PatientClass (required)
+PV1.AssignedPatientLocation.pointofcareID (required)
+PV1.AssignedPatientLocation.room
+PV1.AssignedPatientLocation.bed
+PV1.AssignedPatientLocation.facilityHD.namespaceID
+PV1.AssignedPatientLocation.facilityHD.universalID
+PV1.AssignedPatientLocation.facilityHD.universalIDtype
+PV1.AssignedPatientLocation.locationstatus
+PV1.AssignedPatientLocation.personlocationtype
+PV1.AssignedPatientLocation.building
+PV1.AssignedPatientLocation.floor
+PV1.AssignedPatientLocation.Locationtype
+PV1.AdmissionType (required)
+PV1.PreadmitNumber.ID
+PV1.PreadmitNumber.checkdigit
+PV1.PreadmitNumber.codeidentifyingthecheck
+PV1.PreadmitNumber.assigningauthority.namespaceID
+PV1.PreadmitNumber.assigningauthority.universalID
+PV1.PreadmitNumber.assigningauthority.universalIDtype
+PV1.PreadmitNumber.identifiertypecode
+PV1.PreadmitNumber.assigningfacility.namespaceID
+PV1.PreadmitNumber.assigningfacility.universalID
+PV1.PreadmitNumber.assigningfacility.universalIDtype
+PV1.PriorPatientLocation.pointofcareID
+PV1.PriorPatientLocation.room
+PV1.PriorPatientLocation.bed
+PV1.PriorPatientLocation.facilityHD.namespaceID
+PV1.PriorPatientLocation.facilityHD.universalID
+PV1.PriorPatientLocation.facilityHD.universalIDtype
+PV1.PriorPatientLocation.locationstatus
+PV1.PriorPatientLocation.personlocationtype
+PV1.PriorPatientLocation.building
+PV1.PriorPatientLocation.floor
+PV1.PriorPatientLocation.Locationtype
+PV1.AttendingDoctor.IDnumberST
+PV1.AttendingDoctor.familyname
+PV1.AttendingDoctor.givenname
+PV1.AttendingDoctor.middleinitialorname
+PV1.AttendingDoctor.suffixegJRorIII
+PV1.AttendingDoctor.prefixegDR
+PV1.AttendingDoctor.degreeegMD
+PV1.AttendingDoctor.sourcetable
+PV1.AttendingDoctor.assigningauthority.namespaceID
+PV1.AttendingDoctor.assigningauthority.universalID
+PV1.AttendingDoctor.assigningauthority.universalIDtype
+PV1.AttendingDoctor.nametype
+PV1.AttendingDoctor.identifiercheckdigit
+PV1.AttendingDoctor.codeidentifyingthecheck
+PV1.AttendingDoctor.identifiertypecode
+PV1.AttendingDoctor.assigningfacilityID.namespaceID
+PV1.AttendingDoctor.assigningfacilityID.universalID
+PV1.AttendingDoctor.assigningfacilityID.universalIDtype
+PV1.AttendingDoctor_rep.IDnumberST
+PV1.AttendingDoctor_rep.familyname
+PV1.AttendingDoctor_rep.givenname
+PV1.AttendingDoctor_rep.middleinitialorname
+PV1.AttendingDoctor_rep.suffixegJRorIII
+PV1.AttendingDoctor_rep.prefixegDR
+PV1.AttendingDoctor_rep.degreeegMD
+PV1.AttendingDoctor_rep.sourcetable
+PV1.AttendingDoctor_rep.assigningauthority.namespaceID
+PV1.AttendingDoctor_rep.assigningauthority.universalID
+PV1.AttendingDoctor_rep.assigningauthority.universalIDtype
+PV1.AttendingDoctor_rep.nametype
+PV1.AttendingDoctor_rep.identifiercheckdigit
+PV1.AttendingDoctor_rep.codeidentifyingthecheck
+PV1.AttendingDoctor_rep.identifiertypecode
+PV1.AttendingDoctor_rep.assigningfacilityID.namespaceID
+PV1.AttendingDoctor_rep.assigningfacilityID.universalID
+PV1.AttendingDoctor_rep.assigningfacilityID.universalIDtype
+PV1.ReferringDoctor.IDnumberST
+PV1.ReferringDoctor.familyname
+PV1.ReferringDoctor.givenname
+PV1.ReferringDoctor.middleinitialorname
+PV1.ReferringDoctor.suffixegJRorIII
+PV1.ReferringDoctor.prefixegDR
+PV1.ReferringDoctor.degreeegMD
+PV1.ReferringDoctor.sourcetable
+PV1.ReferringDoctor.assigningauthority.namespaceID
+PV1.ReferringDoctor.assigningauthority.universalID
+PV1.ReferringDoctor.assigningauthority.universalIDtype
+PV1.ReferringDoctor.nametype
+PV1.ReferringDoctor.identifiercheckdigit
+PV1.ReferringDoctor.codeidentifyingthecheck
+PV1.ReferringDoctor.identifiertypecode
+PV1.ReferringDoctor.assigningfacilityID.namespaceID
+PV1.ReferringDoctor.assigningfacilityID.universalID
+PV1.ReferringDoctor.assigningfacilityID.universalIDtype
+PV1.ReferringDoctor_rep.IDnumberST
+PV1.ReferringDoctor_rep.familyname
+PV1.ReferringDoctor_rep.givenname
+PV1.ReferringDoctor_rep.middleinitialorname
+PV1.ReferringDoctor_rep.suffixegJRorIII
+PV1.ReferringDoctor_rep.prefixegDR
+PV1.ReferringDoctor_rep.degreeegMD
+PV1.ReferringDoctor_rep.sourcetable
+PV1.ReferringDoctor_rep.assigningauthority.namespaceID
+PV1.ReferringDoctor_rep.assigningauthority.universalID
+PV1.ReferringDoctor_rep.assigningauthority.universalIDtype
+PV1.ReferringDoctor_rep.nametype
+PV1.ReferringDoctor_rep.identifiercheckdigit
+PV1.ReferringDoctor_rep.codeidentifyingthecheck
+PV1.ReferringDoctor_rep.identifiertypecode
+PV1.ReferringDoctor_rep.assigningfacilityID.namespaceID
+PV1.ReferringDoctor_rep.assigningfacilityID.universalID
+PV1.ReferringDoctor_rep.assigningfacilityID.universalIDtype
+PV1.ConsultingDoctor.IDnumberST
+PV1.ConsultingDoctor.familyname
+PV1.ConsultingDoctor.givenname
+PV1.ConsultingDoctor.middleinitialorname
+PV1.ConsultingDoctor.suffixegJRorIII
+PV1.ConsultingDoctor.prefixegDR
+PV1.ConsultingDoctor.degreeegMD
+PV1.ConsultingDoctor.sourcetable
+PV1.ConsultingDoctor.assigningauthority.namespaceID
+PV1.ConsultingDoctor.assigningauthority.universalID
+PV1.ConsultingDoctor.assigningauthority.universalIDtype
+PV1.ConsultingDoctor.nametype
+PV1.ConsultingDoctor.identifiercheckdigit
+PV1.ConsultingDoctor.codeidentifyingthecheck
+PV1.ConsultingDoctor.identifiertypecode
+PV1.ConsultingDoctor.assigningfacilityID.namespaceID
+PV1.ConsultingDoctor.assigningfacilityID.universalID
+PV1.ConsultingDoctor.assigningfacilityID.universalIDtype
+PV1.HospitalService (required)
+PV1.TemporaryLocation.pointofcareID
+PV1.TemporaryLocation.room
+PV1.TemporaryLocation.bed
+PV1.TemporaryLocation.facilityHD.namespaceID
+PV1.TemporaryLocation.facilityHD.universalID
+PV1.TemporaryLocation.facilityHD.universalIDtype
+PV1.TemporaryLocation.locationstatus
+PV1.TemporaryLocation.personlocationtype
+PV1.TemporaryLocation.building
+PV1.TemporaryLocation.floor
+PV1.TemporaryLocation.Locationtype
+PV1.PreadmitTestIndicator (required)
+PV1.ReadmissionIndicator (required)
+PV1.AdmitSource (required)
+PV1.AmbulatoryStatus (required)
+PV1.AmbulatoryStatus_rep (required)
+PV1.VIPIndicator (required)
+PV1.AdmittingDoctor.IDnumberST
+PV1.AdmittingDoctor.familyname
+PV1.AdmittingDoctor.givenname
+PV1.AdmittingDoctor.middleinitialorname
+PV1.AdmittingDoctor.suffixegJRorIII
+PV1.AdmittingDoctor.prefixegDR
+PV1.AdmittingDoctor.degreeegMD
+PV1.AdmittingDoctor.sourcetable
+PV1.AdmittingDoctor.assigningauthority.namespaceID
+PV1.AdmittingDoctor.assigningauthority.universalID
+PV1.AdmittingDoctor.assigningauthority.universalIDtype
+PV1.AdmittingDoctor.nametype
+PV1.AdmittingDoctor.identifiercheckdigit
+PV1.AdmittingDoctor.codeidentifyingthecheck
+PV1.AdmittingDoctor.identifiertypecode
+PV1.AdmittingDoctor.assigningfacilityID.namespaceID
+PV1.AdmittingDoctor.assigningfacilityID.universalID
+PV1.AdmittingDoctor.assigningfacilityID.universalIDtype
+PV1.AdmittingDoctor_rep.IDnumberST
+PV1.AdmittingDoctor_rep.familyname
+PV1.AdmittingDoctor_rep.givenname
+PV1.AdmittingDoctor_rep.middleinitialorname
+PV1.AdmittingDoctor_rep.suffixegJRorIII
+PV1.AdmittingDoctor_rep.prefixegDR
+PV1.AdmittingDoctor_rep.degreeegMD
+PV1.AdmittingDoctor_rep.sourcetable
+PV1.AdmittingDoctor_rep.assigningauthority.namespaceID
+PV1.AdmittingDoctor_rep.assigningauthority.universalID
+PV1.AdmittingDoctor_rep.assigningauthority.universalIDtype
+PV1.AdmittingDoctor_rep.nametype
+PV1.AdmittingDoctor_rep.identifiercheckdigit
+PV1.AdmittingDoctor_rep.codeidentifyingthecheck
+PV1.AdmittingDoctor_rep.identifiertypecode
+PV1.AdmittingDoctor_rep.assigningfacilityID.namespaceID
+PV1.AdmittingDoctor_rep.assigningfacilityID.universalID
+PV1.AdmittingDoctor_rep.assigningfacilityID.universalIDtype
+PV1.PatientType (required)
+PV1.VisitNumber.ID (required)
+PV1.VisitNumber.checkdigit
+PV1.VisitNumber.codeidentifyingthecheck
+PV1.VisitNumber.assigningauthority.namespaceID
+PV1.VisitNumber.assigningauthority.universalID
+PV1.VisitNumber.assigningauthority.universalIDtype
+PV1.VisitNumber.identifiertypecode
+PV1.VisitNumber.assigningfacility.namespaceID
+PV1.VisitNumber.assigningfacility.universalID
+PV1.VisitNumber.assigningfacility.universalIDtype
+PV1.FinancialClass[n].FinancialClass (required)
+PV1.FinancialClass[n].EffectiveDate.DateTime
+PV1.FinancialClass[n].EffectiveDate.degreeofprecision
+PV1.ChargePriceIndicator (required)
+PV1.CourtesyCode (required)
+PV1.CreditRating (required)
+PV1.ContractCode (required)
+PV1.ContractEffectiveDate (required)
+PV1.ContractAmount (required)
+PV1.ContractPeriod (required)
+PV1.InterestCode (required)
+PV1.TransfertoBadDebtCode (required)
+PV1.TransfertoBadDebtDate (required)
+PV1.BadDebtAgencyCode (required)
+PV1.BadDebtTransferAmount (required)
+PV1.BadDebtRecoveryAmount (required)
+PV1.DeleteAccountIndicator (required)
+PV1.DeleteAccountDate (required)
+PV1.DischargeDisposition (required)
+PV1.DischargedtoLocation.dischargelocation (required)
+PV1.DischargedtoLocation.effectivedate.DateTime
+PV1.DischargedtoLocation.effectivedate.degreeofprecision
+PV1.DietType (required)
+PV1.ServicingFacility (required)
+PV1.BedStatus (required)
+PV1.AccountStatus (required)
+PV1.PendingLocation.pointofcareID
+PV1.PendingLocation.room
+PV1.PendingLocation.bed
+PV1.PendingLocation.facilityHD.namespaceID
+PV1.PendingLocation.facilityHD.universalID
+PV1.PendingLocation.facilityHD.universalIDtype
+PV1.PendingLocation.locationstatus
+PV1.PendingLocation.personlocationtype
+PV1.PendingLocation.building
+PV1.PendingLocation.floor
+PV1.PendingLocation.Locationtype
+PV1.PriorTemporaryLocation.pointofcareID
+PV1.PriorTemporaryLocation.room
+PV1.PriorTemporaryLocation.bed
+PV1.PriorTemporaryLocation.facilityHD.namespaceID
+PV1.PriorTemporaryLocation.facilityHD.universalID
+PV1.PriorTemporaryLocation.facilityHD.universalIDtype
+PV1.PriorTemporaryLocation.locationstatus
+PV1.PriorTemporaryLocation.personlocationtype
+PV1.PriorTemporaryLocation.building
+PV1.PriorTemporaryLocation.floor
+PV1.PriorTemporaryLocation.Locationtype
+PV1.AdmitDateTime.DateTime (required)
+PV1.AdmitDateTime.degreeofprecision
+PV1.DischargeDateTime.DateTime (required)
+PV1.DischargeDateTime.degreeofprecision
+PV1.CurrentPatientBalance (required)
+PV1.TotalCharges (required)
+PV1.TotalAdjustments (required)
+PV1.TotalPayments (required)
+PV1.AlternateVisitID.ID
+PV1.AlternateVisitID.checkdigit
+PV1.AlternateVisitID.codeidentifyingthecheck
+PV1.AlternateVisitID.assigningauthority.namespaceID
+PV1.AlternateVisitID.assigningauthority.universalID
+PV1.AlternateVisitID.assigningauthority.universalIDtype
+PV1.AlternateVisitID.identifiertypecode
+PV1.AlternateVisitID.assigningfacility.namespaceID
+PV1.AlternateVisitID.assigningfacility.universalID
+PV1.AlternateVisitID.assigningfacility.universalIDtype
+PV1.VisitIndicator (required)
+PV1.OtherHealthcareProvider.IDnumberST
+PV1.OtherHealthcareProvider.familyname
+PV1.OtherHealthcareProvider.givenname
+PV1.OtherHealthcareProvider.middleinitialorname
+PV1.OtherHealthcareProvider.suffixegJRorIII
+PV1.OtherHealthcareProvider.prefixegDR
+PV1.OtherHealthcareProvider.degreeegMD
+PV1.OtherHealthcareProvider.sourcetable
+PV1.OtherHealthcareProvider.assigningauthority.namespaceID
+PV1.OtherHealthcareProvider.assigningauthority.universalID
+PV1.OtherHealthcareProvider.assigningauthority.universalIDtype
+PV1.OtherHealthcareProvider.nametype
+PV1.OtherHealthcareProvider.identifiercheckdigit
+PV1.OtherHealthcareProvider.codeidentifyingthecheck
+PV1.OtherHealthcareProvider.identifiertypecode
+PV1.OtherHealthcareProvider.assigningfacilityID.namespaceID
+PV1.OtherHealthcareProvider.assigningfacilityID.universalID
+PV1.OtherHealthcareProvider.assigningfacilityID.universalIDtype
+ORC.OrderControl (required)
+ORC.PlacerOrderNumber.entityidentifier
+ORC.PlacerOrderNumber.namespaceID
+ORC.PlacerOrderNumber.universalID
+ORC.PlacerOrderNumber.universalIDtype
+ORC.FillerOrderNumber.entityidentifier (required)
+ORC.FillerOrderNumber.namespaceID (required)
+ORC.FillerOrderNumber.universalID
+ORC.FillerOrderNumber.universalIDtype
+ORC.PlacerGroupNumber.entityidentifier
+ORC.PlacerGroupNumber.namespaceID
+ORC.PlacerGroupNumber.universalID
+ORC.PlacerGroupNumber.universalIDtype
+ORC.OrderStatus (required)
+ORC.ResponseFlag (required)
+ORC.QuantityTiming.quantity.quantity
+ORC.QuantityTiming.quantity.units
+ORC.QuantityTiming.interval
+ORC.QuantityTiming.duration
+ORC.QuantityTiming.startdatetime.DateTime
+ORC.QuantityTiming.startdatetime.degreeofprecision
+ORC.QuantityTiming.enddatetime.DateTime
+ORC.QuantityTiming.enddatetime.degreeofprecision
+ORC.QuantityTiming.priority
+ORC.QuantityTiming.condition
+ORC.QuantityTiming.textTX
+ORC.QuantityTiming.conjunction
+ORC.QuantityTiming.ordersequencing
+ORC.Parent.parentsplacerordernumbe.entityidentifier
+ORC.Parent.parentsplacerordernumbe.namespaceID
+ORC.Parent.parentsplacerordernumbe.universalID
+ORC.Parent.parentsplacerordernumbe.universalIDtype
+ORC.Parent.parentsfillerordernumbe.entityidentifier
+ORC.Parent.parentsfillerordernumbe.namespaceID
+ORC.Parent.parentsfillerordernumbe.universalID
+ORC.Parent.parentsfillerordernumbe.universalIDtype
+ORC.DateTimeofTransaction.DateTime (required)
+ORC.DateTimeofTransaction.degreeofprecision
+ORC.EnteredBy.IDnumberST
+ORC.EnteredBy.familyname
+ORC.EnteredBy.givenname
+ORC.EnteredBy.middleinitialorname
+ORC.EnteredBy.suffixegJRorIII
+ORC.EnteredBy.prefixegDR
+ORC.EnteredBy.degreeegMD
+ORC.EnteredBy.sourcetable
+ORC.EnteredBy.assigningauthority.namespaceID
+ORC.EnteredBy.assigningauthority.universalID
+ORC.EnteredBy.assigningauthority.universalIDtype
+ORC.EnteredBy.nametype
+ORC.EnteredBy.identifiercheckdigit
+ORC.EnteredBy.codeidentifyingthecheck
+ORC.EnteredBy.identifiertypecode
+ORC.EnteredBy.assigningfacilityID.namespaceID
+ORC.EnteredBy.assigningfacilityID.universalID
+ORC.EnteredBy.assigningfacilityID.universalIDtype
+ORC.VerifiedBy.IDnumberST
+ORC.VerifiedBy.familyname
+ORC.VerifiedBy.givenname
+ORC.VerifiedBy.middleinitialorname
+ORC.VerifiedBy.suffixegJRorIII
+ORC.VerifiedBy.prefixegDR
+ORC.VerifiedBy.degreeegMD
+ORC.VerifiedBy.sourcetable
+ORC.VerifiedBy.assigningauthority.namespaceID
+ORC.VerifiedBy.assigningauthority.universalID
+ORC.VerifiedBy.assigningauthority.universalIDtype
+ORC.VerifiedBy.nametype
+ORC.VerifiedBy.identifiercheckdigit
+ORC.VerifiedBy.codeidentifyingthecheck
+ORC.VerifiedBy.identifiertypecode
+ORC.VerifiedBy.assigningfacilityID.namespaceID
+ORC.VerifiedBy.assigningfacilityID.universalID
+ORC.VerifiedBy.assigningfacilityID.universalIDtype
+ORC.OrderingProvider.IDnumberST
+ORC.OrderingProvider.familyname
+ORC.OrderingProvider.givenname
+ORC.OrderingProvider.middleinitialorname
+ORC.OrderingProvider.suffixegJRorIII
+ORC.OrderingProvider.prefixegDR
+ORC.OrderingProvider.degreeegMD
+ORC.OrderingProvider.sourcetable
+ORC.OrderingProvider.assigningauthority.namespaceID
+ORC.OrderingProvider.assigningauthority.universalID
+ORC.OrderingProvider.assigningauthority.universalIDtype
+ORC.OrderingProvider.nametype
+ORC.OrderingProvider.identifiercheckdigit
+ORC.OrderingProvider.codeidentifyingthecheck
+ORC.OrderingProvider.identifiertypecode
+ORC.OrderingProvider.assigningfacilityID.namespaceID
+ORC.OrderingProvider.assigningfacilityID.universalID
+ORC.OrderingProvider.assigningfacilityID.universalIDtype
+ORC.EnterersLocation.pointofcareID
+ORC.EnterersLocation.room
+ORC.EnterersLocation.bed
+ORC.EnterersLocation.facilityHD.namespaceID
+ORC.EnterersLocation.facilityHD.universalID
+ORC.EnterersLocation.facilityHD.universalIDtype
+ORC.EnterersLocation.locationstatus
+ORC.EnterersLocation.personlocationtype
+ORC.EnterersLocation.building
+ORC.EnterersLocation.floor
+ORC.EnterersLocation.Locationtype
+ORC.CallBackPhoneNumber (required)
+ORC.OrderEffectiveDateTime.DateTime (required)
+ORC.OrderEffectiveDateTime.degreeofprecision
+ORC.OrderControlCodeReason.identifier
+ORC.OrderControlCodeReason.text
+ORC.OrderControlCodeReason.nameofcodingsystem
+ORC.OrderControlCodeReason.alternateidentifier
+ORC.OrderControlCodeReason.alternatetext
+ORC.OrderControlCodeReason.nameofalternatecodingsy
+ORC.EnteringOrganization.identifier
+ORC.EnteringOrganization.text
+ORC.EnteringOrganization.nameofcodingsystem
+ORC.EnteringOrganization.alternateidentifier
+ORC.EnteringOrganization.alternatetext
+ORC.EnteringOrganization.nameofalternatecodingsy
+ORC.EnteringDevice.identifier
+ORC.EnteringDevice.text
+ORC.EnteringDevice.nameofcodingsystem
+ORC.EnteringDevice.alternateidentifier
+ORC.EnteringDevice.alternatetext
+ORC.EnteringDevice.nameofalternatecodingsy
+ORC.ActionBy.IDnumberST
+ORC.ActionBy.familyname
+ORC.ActionBy.givenname
+ORC.ActionBy.middleinitialorname
+ORC.ActionBy.suffixegJRorIII
+ORC.ActionBy.prefixegDR
+ORC.ActionBy.degreeegMD
+ORC.ActionBy.sourcetable
+ORC.ActionBy.assigningauthority.namespaceID
+ORC.ActionBy.assigningauthority.universalID
+ORC.ActionBy.assigningauthority.universalIDtype
+ORC.ActionBy.nametype
+ORC.ActionBy.identifiercheckdigit
+ORC.ActionBy.codeidentifyingthecheck
+ORC.ActionBy.identifiertypecode
+ORC.ActionBy.assigningfacilityID.namespaceID
+ORC.ActionBy.assigningfacilityID.universalID
+ORC.ActionBy.assigningfacilityID.universalIDtype
+OBR.SetIDObservationRequest (required)
+OBR.PlacerOrderNumber.entityidentifier
+OBR.PlacerOrderNumber.namespaceID
+OBR.PlacerOrderNumber.universalID
+OBR.PlacerOrderNumber.universalIDtype
+OBR.FillerOrderNumber.entityidentifier (required)
+OBR.FillerOrderNumber.namespaceID (required)
+OBR.FillerOrderNumber.universalID
+OBR.FillerOrderNumber.universalIDtype
+OBR.UniversalServiceIdentif.identifier
+OBR.UniversalServiceIdentif.text (required)
+OBR.UniversalServiceIdentif.nameofcodingsystem (required)
+OBR.UniversalServiceIdentif.alternateidentifier
+OBR.UniversalServiceIdentif.alternatetext
+OBR.UniversalServiceIdentif.nameofalternatecodingsy
+OBR.Priority (required)
+OBR.RequestedDateTime.DateTime (required)
+OBR.RequestedDateTime.degreeofprecision
+OBR.ObservationDateTime.DateTime (required)
+OBR.ObservationDateTime.degreeofprecision
+OBR.ObservationEndDateTime.DateTime (required)
+OBR.ObservationEndDateTime.degreeofprecision
+OBR.CollectionVolume.quantity
+OBR.CollectionVolume.units.identifier
+OBR.CollectionVolume.units.text
+OBR.CollectionVolume.units.nameofcodingsystem
+OBR.CollectionVolume.units.alternateidentifier
+OBR.CollectionVolume.units.alternatetext
+OBR.CollectionVolume.units.nameofalternatecodingsy
+OBR.CollectorIdentifier.IDnumberST
+OBR.CollectorIdentifier.familyname
+OBR.CollectorIdentifier.givenname
+OBR.CollectorIdentifier.middleinitialorname
+OBR.CollectorIdentifier.suffixegJRorIII
+OBR.CollectorIdentifier.prefixegDR
+OBR.CollectorIdentifier.degreeegMD
+OBR.CollectorIdentifier.sourcetable
+OBR.CollectorIdentifier.assigningauthority.namespaceID
+OBR.CollectorIdentifier.assigningauthority.universalID
+OBR.CollectorIdentifier.assigningauthority.universalIDtype
+OBR.CollectorIdentifier.nametype
+OBR.CollectorIdentifier.identifiercheckdigit
+OBR.CollectorIdentifier.codeidentifyingthecheck
+OBR.CollectorIdentifier.identifiertypecode
+OBR.CollectorIdentifier.assigningfacilityID.namespaceID
+OBR.CollectorIdentifier.assigningfacilityID.universalID
+OBR.CollectorIdentifier.assigningfacilityID.universalIDtype
+OBR.SpecimenActionCode (required)
+OBR.DangerCode.identifier
+OBR.DangerCode.text
+OBR.DangerCode.nameofcodingsystem
+OBR.DangerCode.alternateidentifier
+OBR.DangerCode.alternatetext
+OBR.DangerCode.nameofalternatecodingsy
+OBR.RelevantClinicalInforma (required)
+OBR.SpecimenReceivedDateTim.DateTime (required)
+OBR.SpecimenReceivedDateTim.degreeofprecision
+OBR.SpecimenSource.specimensourcenameorcod.identifier
+OBR.SpecimenSource.specimensourcenameorcod.text
+OBR.SpecimenSource.specimensourcenameorcod.nameofcodingsystem
+OBR.SpecimenSource.specimensourcenameorcod.alternateidentifier
+OBR.SpecimenSource.specimensourcenameorcod.alternatetext
+OBR.SpecimenSource.specimensourcenameorcod.nameofalternatecodingsy
+OBR.SpecimenSource.additives
+OBR.SpecimenSource.freetext
+OBR.SpecimenSource.bodysite.identifier
+OBR.SpecimenSource.bodysite.text
+OBR.SpecimenSource.bodysite.nameofcodingsystem
+OBR.SpecimenSource.bodysite.alternateidentifier
+OBR.SpecimenSource.bodysite.alternatetext
+OBR.SpecimenSource.bodysite.nameofalternatecodingsy
+OBR.SpecimenSource.sitemodifier.identifier
+OBR.SpecimenSource.sitemodifier.text
+OBR.SpecimenSource.sitemodifier.nameofcodingsystem
+OBR.SpecimenSource.sitemodifier.alternateidentifier
+OBR.SpecimenSource.sitemodifier.alternatetext
+OBR.SpecimenSource.sitemodifier.nameofalternatecodingsy
+OBR.SpecimenSource.collectionmodifiermetho.identifier
+OBR.SpecimenSource.collectionmodifiermetho.text
+OBR.SpecimenSource.collectionmodifiermetho.nameofcodingsystem
+OBR.SpecimenSource.collectionmodifiermetho.alternateidentifier
+OBR.SpecimenSource.collectionmodifiermetho.alternatetext
+OBR.SpecimenSource.collectionmodifiermetho.nameofalternatecodingsy
+OBR.OrderingProvider.IDnumberST
+OBR.OrderingProvider.familyname
+OBR.OrderingProvider.givenname
+OBR.OrderingProvider.middleinitialorname
+OBR.OrderingProvider.suffixegJRorIII
+OBR.OrderingProvider.prefixegDR
+OBR.OrderingProvider.degreeegMD
+OBR.OrderingProvider.sourcetable
+OBR.OrderingProvider.assigningauthority.namespaceID
+OBR.OrderingProvider.assigningauthority.universalID
+OBR.OrderingProvider.assigningauthority.universalIDtype
+OBR.OrderingProvider.nametype
+OBR.OrderingProvider.identifiercheckdigit
+OBR.OrderingProvider.codeidentifyingthecheck
+OBR.OrderingProvider.identifiertypecode
+OBR.OrderingProvider.assigningfacilityID.namespaceID
+OBR.OrderingProvider.assigningfacilityID.universalID
+OBR.OrderingProvider.assigningfacilityID.universalIDtype
+OBR.OrderCallbackPhoneNumbe.9999999999X99999Canytex
+OBR.OrderCallbackPhoneNumbe.telecommunicationusecod
+OBR.OrderCallbackPhoneNumbe.telecommunicationequipm
+OBR.OrderCallbackPhoneNumbe.Emailaddress
+OBR.OrderCallbackPhoneNumbe.CountryCode
+OBR.OrderCallbackPhoneNumbe.Areacitycode
+OBR.OrderCallbackPhoneNumbe.Phonenumber
+OBR.OrderCallbackPhoneNumbe.Extension
+OBR.OrderCallbackPhoneNumbe.anytext
+OBR.PlacerField1 (required)
+OBR.PlacerField2 (required)
+OBR.FillerField1 (required)
+OBR.FillerField2 (required)
+OBR.ResultsRptStatusChngDat.DateTime (required)
+OBR.ResultsRptStatusChngDat.degreeofprecision
+OBR.ChargeToPractice.dollaramount.quantity
+OBR.ChargeToPractice.dollaramount.denomination
+OBR.ChargeToPractice.chargecode.identifier
+OBR.ChargeToPractice.chargecode.text
+OBR.ChargeToPractice.chargecode.nameofcodingsystem
+OBR.ChargeToPractice.chargecode.alternateidentifier
+OBR.ChargeToPractice.chargecode.alternatetext
+OBR.ChargeToPractice.chargecode.nameofalternatecodingsy
+OBR.DiagnosticServiceSectio (required)
+OBR.ResultStatus (required)
+OBR.ParentResult.OBX3observationidentifi.identifier
+OBR.ParentResult.OBX3observationidentifi.text
+OBR.ParentResult.OBX3observationidentifi.nameofcodingsystem
+OBR.ParentResult.OBX3observationidentifi.alternateidentifier
+OBR.ParentResult.OBX3observationidentifi.alternatetext
+OBR.ParentResult.OBX3observationidentifi.nameofalternatecodingsy
+OBR.ParentResult.OBX4subIDofparentresult
+OBR.ParentResult.partofOBX5observationre
+OBR.QuantityTiming.quantity.quantity
+OBR.QuantityTiming.quantity.units
+OBR.QuantityTiming.interval
+OBR.QuantityTiming.duration
+OBR.QuantityTiming.startdatetime.DateTime
+OBR.QuantityTiming.startdatetime.degreeofprecision
+OBR.QuantityTiming.enddatetime.DateTime
+OBR.QuantityTiming.enddatetime.degreeofprecision
+OBR.QuantityTiming.priority
+OBR.QuantityTiming.condition
+OBR.QuantityTiming.textTX
+OBR.QuantityTiming.conjunction
+OBR.QuantityTiming.ordersequencing
+OBR.ResultCopiesTo.IDnumberST
+OBR.ResultCopiesTo.familyname
+OBR.ResultCopiesTo.givenname
+OBR.ResultCopiesTo.middleinitialorname
+OBR.ResultCopiesTo.suffixegJRorIII
+OBR.ResultCopiesTo.prefixegDR
+OBR.ResultCopiesTo.degreeegMD
+OBR.ResultCopiesTo.sourcetable
+OBR.ResultCopiesTo.assigningauthority.namespaceID
+OBR.ResultCopiesTo.assigningauthority.universalID
+OBR.ResultCopiesTo.assigningauthority.universalIDtype
+OBR.ResultCopiesTo.nametype
+OBR.ResultCopiesTo.identifiercheckdigit
+OBR.ResultCopiesTo.codeidentifyingthecheck
+OBR.ResultCopiesTo.identifiertypecode
+OBR.ResultCopiesTo.assigningfacilityID.namespaceID
+OBR.ResultCopiesTo.assigningfacilityID.universalID
+OBR.ResultCopiesTo.assigningfacilityID.universalIDtype
+OBR.ParentNumber.parentsplacerordernumbe.entityidentifier
+OBR.ParentNumber.parentsplacerordernumbe.namespaceID
+OBR.ParentNumber.parentsplacerordernumbe.universalID
+OBR.ParentNumber.parentsplacerordernumbe.universalIDtype
+OBR.ParentNumber.parentsfillerordernumbe.entityidentifier
+OBR.ParentNumber.parentsfillerordernumbe.namespaceID
+OBR.ParentNumber.parentsfillerordernumbe.universalID
+OBR.ParentNumber.parentsfillerordernumbe.universalIDtype
+OBR.TransportationMode (required)
+OBR.ReasonForStudy.identifier
+OBR.ReasonForStudy.text
+OBR.ReasonForStudy.nameofcodingsystem
+OBR.ReasonForStudy.alternateidentifier
+OBR.ReasonForStudy.alternatetext
+OBR.ReasonForStudy.nameofalternatecodingsy
+OBR.PrincipalResultInterpre.name.IDnumberST
+OBR.PrincipalResultInterpre.name.familyname
+OBR.PrincipalResultInterpre.name.givenname
+OBR.PrincipalResultInterpre.name.middleinitialorname
+OBR.PrincipalResultInterpre.name.suffixegJRorIII
+OBR.PrincipalResultInterpre.name.prefixegDR
+OBR.PrincipalResultInterpre.name.degreeegMD
+OBR.PrincipalResultInterpre.name.sourcetable
+OBR.PrincipalResultInterpre.name.assigningauthority
+OBR.PrincipalResultInterpre.startdatetime.DateTime
+OBR.PrincipalResultInterpre.startdatetime.degreeofprecision
+OBR.PrincipalResultInterpre.enddatetime.DateTime
+OBR.PrincipalResultInterpre.enddatetime.degreeofprecision
+OBR.PrincipalResultInterpre.pointofcareIS
+OBR.PrincipalResultInterpre.room
+OBR.PrincipalResultInterpre.bed
+OBR.PrincipalResultInterpre.facilityHD.namespaceID
+OBR.PrincipalResultInterpre.facilityHD.universalID
+OBR.PrincipalResultInterpre.facilityHD.universalIDtype
+OBR.PrincipalResultInterpre.locationstatus
+OBR.PrincipalResultInterpre.personlocationtype
+OBR.PrincipalResultInterpre.building
+OBR.PrincipalResultInterpre.floor
+OBR.AssistantResultInterpre.name.IDnumberST
+OBR.AssistantResultInterpre.name.familyname
+OBR.AssistantResultInterpre.name.givenname
+OBR.AssistantResultInterpre.name.middleinitialorname
+OBR.AssistantResultInterpre.name.suffixegJRorIII
+OBR.AssistantResultInterpre.name.prefixegDR
+OBR.AssistantResultInterpre.name.degreeegMD
+OBR.AssistantResultInterpre.name.sourcetable
+OBR.AssistantResultInterpre.name.assigningauthority
+OBR.AssistantResultInterpre.startdatetime.DateTime
+OBR.AssistantResultInterpre.startdatetime.degreeofprecision
+OBR.AssistantResultInterpre.enddatetime.DateTime
+OBR.AssistantResultInterpre.enddatetime.degreeofprecision
+OBR.AssistantResultInterpre.pointofcareIS
+OBR.AssistantResultInterpre.room
+OBR.AssistantResultInterpre.bed
+OBR.AssistantResultInterpre.facilityHD.namespaceID
+OBR.AssistantResultInterpre.facilityHD.universalID
+OBR.AssistantResultInterpre.facilityHD.universalIDtype
+OBR.AssistantResultInterpre.locationstatus
+OBR.AssistantResultInterpre.personlocationtype
+OBR.AssistantResultInterpre.building
+OBR.AssistantResultInterpre.floor
+OBR.Technician.name.IDnumberST
+OBR.Technician.name.familyname
+OBR.Technician.name.givenname
+OBR.Technician.name.middleinitialorname
+OBR.Technician.name.suffixegJRorIII
+OBR.Technician.name.prefixegDR
+OBR.Technician.name.degreeegMD
+OBR.Technician.name.sourcetable
+OBR.Technician.name.assigningauthority
+OBR.Technician.startdatetime.DateTime
+OBR.Technician.startdatetime.degreeofprecision
+OBR.Technician.enddatetime.DateTime
+OBR.Technician.enddatetime.degreeofprecision
+OBR.Technician.pointofcareIS
+OBR.Technician.room
+OBR.Technician.bed
+OBR.Technician.facilityHD.namespaceID
+OBR.Technician.facilityHD.universalID
+OBR.Technician.facilityHD.universalIDtype
+OBR.Technician.locationstatus
+OBR.Technician.personlocationtype
+OBR.Technician.building
+OBR.Technician.floor
+OBR.Transcriptionist.name.IDnumberST
+OBR.Transcriptionist.name.familyname
+OBR.Transcriptionist.name.givenname
+OBR.Transcriptionist.name.middleinitialorname
+OBR.Transcriptionist.name.suffixegJRorIII
+OBR.Transcriptionist.name.prefixegDR
+OBR.Transcriptionist.name.degreeegMD
+OBR.Transcriptionist.name.sourcetable
+OBR.Transcriptionist.name.assigningauthority
+OBR.Transcriptionist.startdatetime.DateTime
+OBR.Transcriptionist.startdatetime.degreeofprecision
+OBR.Transcriptionist.enddatetime.DateTime
+OBR.Transcriptionist.enddatetime.degreeofprecision
+OBR.Transcriptionist.pointofcareIS
+OBR.Transcriptionist.room
+OBR.Transcriptionist.bed
+OBR.Transcriptionist.facilityHD.namespaceID
+OBR.Transcriptionist.facilityHD.universalID
+OBR.Transcriptionist.facilityHD.universalIDtype
+OBR.Transcriptionist.locationstatus
+OBR.Transcriptionist.personlocationtype
+OBR.Transcriptionist.building
+OBR.Transcriptionist.floor
+OBR.ScheduledDateTime.DateTime (required)
+OBR.ScheduledDateTime.degreeofprecision
+OBR.NumberOfSampleContainer (required)
+OBR.TransportLogisticsOfCol.identifier
+OBR.TransportLogisticsOfCol.text
+OBR.TransportLogisticsOfCol.nameofcodingsystem
+OBR.TransportLogisticsOfCol.alternateidentifier
+OBR.TransportLogisticsOfCol.alternatetext
+OBR.TransportLogisticsOfCol.nameofalternatecodingsy
+OBR.CollectorsComment.identifier
+OBR.CollectorsComment.text
+OBR.CollectorsComment.nameofcodingsystem
+OBR.CollectorsComment.alternateidentifier
+OBR.CollectorsComment.alternatetext
+OBR.CollectorsComment.nameofalternatecodingsy
+OBR.TransportArrangementRes.identifier
+OBR.TransportArrangementRes.text
+OBR.TransportArrangementRes.nameofcodingsystem
+OBR.TransportArrangementRes.alternateidentifier
+OBR.TransportArrangementRes.alternatetext
+OBR.TransportArrangementRes.nameofalternatecodingsy
+OBR.TransportArranged (required)
+OBR.EscortRequired (required)
+OBR.PlannedPatientTransport.identifier
+OBR.PlannedPatientTransport.text
+OBR.PlannedPatientTransport.nameofcodingsystem
+OBR.PlannedPatientTransport.alternateidentifier
+OBR.PlannedPatientTransport.alternatetext
+OBR.PlannedPatientTransport.nameofalternatecodingsy
+OBX[n].SetIDOBX (required)
+OBX[n].ValueType (required)
+OBX[n].ObservationIdentifier.identifier (required)
+OBX[n].ObservationIdentifier.text (required)
+OBX[n].ObservationIdentifier.nameofcodingsystem
+OBX[n].ObservationIdentifier.alternateidentifier
+OBX[n].ObservationIdentifier.alternatetext
+OBX[n].ObservationIdentifier.nameofalternatecodingsy
+OBX[n].ObservationSubID (required)
+OBX[n].ObservationValue (required)
+OBX[n].Units.identifier
+OBX[n].Units.text
+OBX[n].Units.nameofcodingsystem
+OBX[n].Units.alternateidentifier
+OBX[n].Units.alternatetext
+OBX[n].Units.nameofalternatecodingsy
+OBX[n].ReferencesRange (required)
+OBX[n].AbnormalFlags (required)
+OBX[n].AbnormalFlags_rep (required)
+OBX[n].Probability (required)
+OBX[n].NatureofAbnormalTest (required)
+OBX[n].NatureofAbnormalTest_re (required)
+OBX[n].ObservResultStatus (required)
+OBX[n].DateLastObsNormalValues.DateTime (required)
+OBX[n].DateLastObsNormalValues.degreeofprecision
+OBX[n].UserDefinedAccessChecks (required)
+OBX[n].DateTimeoftheObservatio.DateTime (required)
+OBX[n].DateTimeoftheObservatio.degreeofprecision
+OBX[n].ProducersID.identifier
+OBX[n].ProducersID.text
+OBX[n].ProducersID.nameofcodingsystem
+OBX[n].ProducersID.alternateidentifier
+OBX[n].ProducersID.alternatetext
+OBX[n].ProducersID.nameofalternatecodingsy
+OBX[n].ResponsibleObserver.IDnumberST
+OBX[n].ResponsibleObserver.familyname
+OBX[n].ResponsibleObserver.givenname
+OBX[n].ResponsibleObserver.middleinitialorname
+OBX[n].ResponsibleObserver.suffixegJRorIII
+OBX[n].ResponsibleObserver.prefixegDR
+OBX[n].ResponsibleObserver.degreeegMD
+OBX[n].ResponsibleObserver.sourcetable
+OBX[n].ResponsibleObserver.assigningauthority.namespaceID
+OBX[n].ResponsibleObserver.assigningauthority.universalID
+OBX[n].ResponsibleObserver.assigningauthority.universalIDtype
+OBX[n].ResponsibleObserver.nametype
+OBX[n].ResponsibleObserver.identifiercheckdigit
+OBX[n].ResponsibleObserver.codeidentifyingthecheck
+OBX[n].ResponsibleObserver.identifiertypecode
+OBX[n].ResponsibleObserver.assigningfacilityID.namespaceID
+OBX[n].ResponsibleObserver.assigningfacilityID.universalID
+OBX[n].ResponsibleObserver.assigningfacilityID.universalIDtype
+OBX[n].ObservationMethod.identifier
+OBX[n].ObservationMethod.text
+OBX[n].ObservationMethod.nameofcodingsystem
+OBX[n].ObservationMethod.alternateidentifier
+OBX[n].ObservationMethod.alternatetext
+OBX[n].ObservationMethod.nameofalternatecodingsy
+
