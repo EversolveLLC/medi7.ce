@@ -356,7 +356,7 @@ public class M7CompositeTest extends TestCase {
 		try {
 			System.out.println(oru.getChild("MSH").toString());
 		} catch (M7Exception e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 			fail(e.getLocalizedMessage());
 		}

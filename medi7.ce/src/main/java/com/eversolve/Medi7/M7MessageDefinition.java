@@ -73,12 +73,7 @@ public class M7MessageDefinition {
 		}
 
 	}
-	public static void main(String argv[])throws M7Exception,
-	java.io.IOException 
-	{
-		M7DefinitionFile mf = new M7DefinitionFile("test//data//OML_O21.txt");
-		M7MessageDefinition mdf = new M7MessageDefinition( "OML:O21", mf);
-	}
+	
 
 	/**
 	 * @param msgType

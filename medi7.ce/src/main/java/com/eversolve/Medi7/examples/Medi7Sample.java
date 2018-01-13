@@ -13,7 +13,6 @@ import com.eversolve.Medi7.M7Field;
 import com.eversolve.Medi7.M7Message;
 import com.eversolve.Medi7.M7MessageDefinition;
 import com.eversolve.Medi7.M7Repeat;
-import com.eversolve.Medi7.util.M7StringHolder;
 import com.eversolve.Medi7.datatypes.M7Date;
 
 

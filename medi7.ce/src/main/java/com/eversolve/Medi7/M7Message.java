@@ -535,13 +535,13 @@ public class M7Message extends M7Composite {
 	 *             messages supported.
 	 */
 	protected void checkEvaluationCounter() throws M7Exception {
-		if (M7.EVALUATION == true) {
-			if (messageEvaluationCounter > MAX_EVAL) {
-				throw new M7Exception(
-						Messages.getString("M7Message.EVALUATION_LIMIT") + MAX_EVAL, M7Exception.eEvalCopyExpired); //$NON-NLS-1$
-			}
-			messageEvaluationCounter++;
-		}
+		//if (M7.EVALUATION == true) {
+		//	if (messageEvaluationCounter > MAX_EVAL) {
+		//		throw new M7Exception(
+		//				Messages.getString("M7Message.EVALUATION_LIMIT") + MAX_EVAL, M7Exception.eEvalCopyExpired); //$NON-NLS-1$
+		//	}
+		//	messageEvaluationCounter++;
+		//}
 	}
 
 	/**
